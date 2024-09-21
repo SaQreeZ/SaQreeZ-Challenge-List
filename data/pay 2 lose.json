@@ -1,0 +1,18 @@
+{
+    "id": 110385490,
+    "name": "pay 2 lose",
+    "author": "tublerGD",
+    "creators": ["tublerGD"],
+    "verifier": "tublerGD",
+    "verification": "https://youtu.be/c1-UMFRY1H4",
+    "percentToQualify": 30,
+    "password": "None",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 33,
+            "hz": 240
+        }
+    ]
+}
