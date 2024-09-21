@@ -1,0 +1,30 @@
+{
+    "id": 110379152,
+    "name": "Defuse",
+    "author": "SaQreeZ",
+    "creators": ["SaQreeZ"],
+    "verifier": "SaQreeZ",
+    "verification": "link",
+    "percentToQualify": 25,
+    "password": "None",
+    "records": [
+        {
+            "user": "tublerGD",
+            "link": "https://youtu.be/c4V6n9MVNzw",
+            "percent": 51,
+            "hz": 60
+        },
+        {
+            "user": "Wojasek",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "PershingGD",
+            "link": "link",
+            "percent": 74,
+            "hz": 60
+        }
+    ]
+}

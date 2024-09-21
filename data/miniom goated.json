@@ -5,13 +5,19 @@
     "creators": ["tublerGD"],
     "verifier": "tublerGD",
     "verification": "https://youtu.be/c4V6n9MVNzw",
-    "percentToQualify": 50,
+    "percentToQualify": 30,
     "password": "None",
     "records": [
         {
             "user": "SaQreeZ",
             "link": "https://youtu.be/c4V6n9MVNzw",
             "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Wojasek",
+            "link": "link",
+            "percent": 48,
             "hz": 240
         }
     ]
