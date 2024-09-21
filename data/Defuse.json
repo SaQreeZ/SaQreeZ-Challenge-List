@@ -4,13 +4,13 @@
     "author": "SaQreeZ",
     "creators": ["SaQreeZ"],
     "verifier": "SaQreeZ",
-    "verification": "link",
+    "verification": "https://youtu.be/nY3q9qUoH-I",
     "percentToQualify": 25,
     "password": "None",
     "records": [
         {
             "user": "tublerGD",
-            "link": "https://youtu.be/c4V6n9MVNzw",
+            "link": "link",
             "percent": 51,
             "hz": 60
         },
