@@ -1,16 +1,16 @@
 {
-    "id": 110379152,
-    "name": "miniom goated",
-    "author": "tublerGD",
-    "creators": ["tublerGD"],
-    "verifier": "tublerGD",
-    "verification": "link",
+    "id": 109479772,
+    "name": "3 seconds brainrot",
+    "author": "Wojasek",
+    "creators": ["Wojasek"],
+    "verifier": "Wojasek",
+    "verification": "https://youtu.be/FF_DgSI8hVY",
     "percentToQualify": 50,
     "password": "None",
     "records": [
         {
             "user": "SaQreeZ",
-            "link": "link",
+            "link": "https://youtu.be/FF_DgSI8hVY",
             "percent": 100,
             "hz": 240
         }
