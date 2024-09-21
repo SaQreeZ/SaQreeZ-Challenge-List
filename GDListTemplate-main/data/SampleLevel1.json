@@ -1,0 +1,18 @@
+{
+    "id": 0,
+    "name": "TestLmao",
+    "author": "SaQreeZ",
+    "creators": ["SaQreeZ"],
+    "verifier": "SaQreeZ",
+    "verification": "link",
+    "percentToQualify": 50,
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user": "SaQreeZ2",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "role": "owner",
+        "name": "SaQreeZ",
+        "link": "link"
+    },
+    {
+        "role": "admin",
+        "name": "none",
+        "link": "link"
+    },
+    {
+        "role": "helper",
+        "name": "none",
+        "link": "link"
+    },
+    {
+        "role": "trial",
+        "name": "none",
+        "link": "link"
+    },
+    {
+        "role": "dev",
+        "name": "SaQreeZ",
+        "link": "link"
+    }
+]
