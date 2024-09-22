@@ -5,7 +5,7 @@
     "creators": ["t0n3k"],
     "verifier": "t0n3k",
     "verification": "https://youtu.be/osx6ZslcAek",
-    "percentToQualify": 44,
+    "percentToQualify": 33,
     "password": "None",
     "records": [
         {
@@ -19,6 +19,12 @@
             "link": "link",
             "percent": 66,
             "hz": 240
+        },
+        {
+            "user": "PershingPL",
+            "link": "link",
+            "percent": 33,
+            "hz": 60
         }
     ]
 }

@@ -3,16 +3,16 @@
     "name": "Brilden",
     "author": "SaQreeZ",
     "creators": ["SaQreeZ, PershingPL"],
-    "verifier": "PershingPL",
+    "verifier": "SaQreeZ",
     "verification": "https://youtu.be/5ARTMbqgyr0",
     "percentToQualify": 25,
     "password": "None",
     "records": [
         {
-            "user": "SaQreeZ",
+            "user": "PershingPL",
             "link": "link",
-            "percent": 100,
-            "hz": 144
+            "percent": 46,
+            "hz": 60
         },
         {
             "user": "Wojasek",
