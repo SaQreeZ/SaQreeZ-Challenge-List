@@ -4,7 +4,7 @@
     "author": "PershingPL",
     "creators": ["PershingPL"],
     "verifier": "PershingPL",
-    "verification": "link",
+    "verification": "https://youtu.be/sTHDCdVM-8w",
     "percentToQualify": 66,
     "password": "None",
     "records": [
@@ -13,6 +13,18 @@
             "link": "link",
             "percent": 100,
             "hz": 144
+        },
+        {
+            "user": "Wojasek",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "tublerGD",
+            "link": "link",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }

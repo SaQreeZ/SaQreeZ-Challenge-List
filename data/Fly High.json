@@ -4,12 +4,18 @@
     "author": "SaQreeZ",
     "creators": ["SaQreeZ"],
     "verifier": "SaQreeZ",
-    "verification": "link",
+    "verification": "https://youtu.be/LCLNfXN767c",
     "percentToQualify": 50,
     "password": "None",
     "records": [
         {
             "user": "PershingPL",
+            "link": "link",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Wojasek",
             "link": "link",
             "percent": 100,
             "hz": 60
