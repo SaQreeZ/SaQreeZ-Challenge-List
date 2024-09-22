@@ -7,5 +7,12 @@
     "verification": "https://youtu.be/3mdDAz_2ru4",
     "percentToQualify": 50,
     "password": "None",
-    "records": []
+    "records": [
+        {
+        "user": "Wojasek",
+        "link": "link",
+        "percent": 52,
+        "hz": 240
+        }
+]
 }
