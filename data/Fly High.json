@@ -1,0 +1,18 @@
+{
+    "id": 81203276,
+    "name": "Fly High",
+    "author": "SaQreeZ",
+    "creators": ["SaQreeZ"],
+    "verifier": "SaQreeZ",
+    "verification": "link",
+    "percentToQualify": 50,
+    "password": "None",
+    "records": [
+        {
+            "user": "PershingPL",
+            "link": "link",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}
