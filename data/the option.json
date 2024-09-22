@@ -25,6 +25,12 @@
             "link": "link",
             "percent": 33,
             "hz": 60
+        },
+        {
+            "user": "Wojasek",
+            "link": "link",
+            "percent": 76,
+            "hz": 240
         }
     ]
 }
