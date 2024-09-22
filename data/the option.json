@@ -4,9 +4,15 @@
     "author": "t0n3k",
     "creators": ["t0n3k"],
     "verifier": "t0n3k",
-    "verification": "link",
+    "verification": "https://youtu.be/osx6ZslcAek",
     "percentToQualify": 44,
     "password": "None",
     "records": [
+        {
+            "user": "tublerGD",
+            "link": "link",
+            "percent": 49,
+            "hz": 60
+        }
     ]
 }
