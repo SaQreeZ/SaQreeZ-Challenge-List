@@ -4,10 +4,21 @@
     "author": "tublerGD",
     "creators": ["tublerGD"],
     "verifier": "tublerGD",
-    "verification": "link",
+    "verification": "https://youtu.be/Y9WulQy0G9M",
     "percentToQualify": 50,
     "password": "None",
     "records": [
-
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "t0n3k",
+            "link": "link",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
