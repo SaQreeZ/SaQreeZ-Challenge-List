@@ -1,0 +1,18 @@
+{
+    "id": 108991543,
+    "name": "Wave Challenge",
+    "author": "denerosz",
+    "creators": ["denerosz"],
+    "verifier": "denerosz",
+    "verification": "https://youtu.be/FF_DgSI8hVY",
+    "percentToQualify": 50,
+    "password": "None",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

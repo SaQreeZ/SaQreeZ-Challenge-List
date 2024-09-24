@@ -9,16 +9,16 @@
     "password": "None",
     "records": [
         {
-            "user": "PershingPL",
-            "link": "link",
-            "percent": 46,
-            "hz": 60
-        },
-        {
             "user": "Wojasek",
             "link": "link",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "PershingPL",
+            "link": "link",
+            "percent": 100,
+            "hz": 60
         },
         {
             "user": "tublerGD",

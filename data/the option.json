@@ -9,12 +9,6 @@
     "password": "None",
     "records": [
         {
-            "user": "tublerGD",
-            "link": "link",
-            "percent": 49,
-            "hz": 60
-        },
-        {
             "user": "SaQreeZ",
             "link": "link",
             "percent": 100,
@@ -31,6 +25,12 @@
             "link": "link",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "tublerGD",
+            "link": "link",
+            "percent": 67,
+            "hz": 60
         }
     ]
 }

@@ -19,6 +19,18 @@
             "link": "link",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "denerosz",
+            "link": "link",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "t0n3k",
+            "link": "link",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
