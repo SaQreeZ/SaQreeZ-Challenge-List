@@ -1,25 +1,13 @@
 {
     "id": 108991543,
-    "name": "Wave Challenge",
+    "name": "Wojasek Challenge",
     "author": "denerosz",
     "creators": ["denerosz"],
     "verifier": "denerosz",
     "verification": "link",
-    "percentToQualify": 66,
+    "percentToQualify": 40,
     "password": "None",
     "records": [
-        {
-            "user": "SaQreeZ",
-            "link": "link",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "t0n3k",
-            "link": "link",
-            "percent": 100,
-            "hz": 60
-        },
         {
             "user": "Wojasek",
             "link": "link",
@@ -29,7 +17,7 @@
         {
             "user": "tublerGD",
             "link": "link",
-            "percent": 100,
+            "percent": 47,
             "hz": 60
         }
     ]
