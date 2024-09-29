@@ -1,0 +1,18 @@
+{
+    "id": 110361107,
+    "name": "Ultimate Wave",
+    "author": "t0n3k",
+    "creators": ["t0n3k"],
+    "verifier": "t0n3k",
+    "verification": "link",
+    "percentToQualify": 33,
+    "password": "None",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
