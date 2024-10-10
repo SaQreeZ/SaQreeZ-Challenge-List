@@ -100,7 +100,7 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Level length MUST be 3 to 30 seconds long.
+                        Level length MUST be 3 to 59 seconds long.
                     </p>
                     <p>
                         Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps. CBF is ALLOWED.).
