@@ -1,0 +1,18 @@
+{
+    "id": 110992444,
+    "name": "Decomposition",
+    "author": "SaQreeZ",
+    "creators": ["SaQreeZ"],
+    "verifier": "SaQreeZ",
+    "verification": "https://youtu.be/LQMZYMvoDsw",
+    "percentToQualify": 40,
+    "password": "None",
+    "records": [
+        {
+            "user": "PershingPL",
+            "link": "link",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}
