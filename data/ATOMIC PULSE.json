@@ -8,6 +8,23 @@
     "percentToQualify": 43,
     "password": "None",
     "records": [
-
+        {
+            "user": "t0n3k",
+            "link": "link",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Pershing",
+            "link": "link",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Wojasek",
+            "link": "link",
+            "percent": 63,
+            "hz": 240
+        }
     ]
 }
