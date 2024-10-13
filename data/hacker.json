@@ -1,0 +1,18 @@
+{
+    "id": 110958846,
+    "name": "hacker",
+    "author": "tublerGD",
+    "creators": ["tublerGD"],
+    "verifier": "tublerGD",
+    "verification": "https://youtu.be/9GZeh7FNZjY",
+    "percentToQualify": 55,
+    "password": "None",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
