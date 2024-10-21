@@ -18,6 +18,7 @@
             "user": "PershingPL",
             "link": "link",
             "percent": 33,
+            "mobile": 1,
             "hz": 60
         },
         {
@@ -30,6 +31,7 @@
             "user": "tublerGD",
             "link": "link",
             "percent": 67,
+            "mobile": 1,
             "hz": 60
         }
     ]
