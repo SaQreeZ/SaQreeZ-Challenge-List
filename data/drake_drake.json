@@ -1,0 +1,18 @@
+{
+    "id": 111364952,
+    "name": "drake drake",
+    "author": "tublerGD",
+    "creators": ["tublerGD"],
+    "verifier": "tublerGD",
+    "verification": "link",
+    "percentToQualify": 45,
+    "password": "None",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
