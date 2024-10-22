@@ -1,31 +1,25 @@
 {
-    "id": 111324093,
-    "name": "isuck atwave",
+    "id": 111391031,
+    "name": "one uno ein jeden",
     "author": "denerosz",
     "creators": ["denerosz"],
     "verifier": "denerosz",
     "verification": "link",
-    "percentToQualify": 40,
+    "percentToQualify": 66,
     "password": "None",
     "records": [
-        {
-            "user": "SaQreeZ",
-            "link": "link",
-            "percent": 100,
-            "hz": 240
-        },
-        {
-            "user": "Wojasek",
-            "link": "link",
-            "percent": 100,
-            "hz": 240
-        },
         {
             "user": "tublerGD",
             "link": "link",
             "percent": 100,
             "mobile": 1,
             "hz": 60
+        },
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
