@@ -15,14 +15,13 @@
             "hz": 240
         },
         {
-            "user": "PershingPL",
+            "user": "Wojasek",
             "link": "link",
-            "percent": 33,
-            "mobile": 1,
-            "hz": 60
+            "percent": 100,
+            "hz": 240
         },
         {
-            "user": "Wojasek",
+            "user": "MaybeGurt",
             "link": "link",
             "percent": 100,
             "hz": 240
@@ -31,6 +30,13 @@
             "user": "tublerGD",
             "link": "link",
             "percent": 67,
+            "mobile": 1,
+            "hz": 60
+        },
+        {
+            "user": "PershingPL",
+            "link": "link",
+            "percent": 33,
             "mobile": 1,
             "hz": 60
         }

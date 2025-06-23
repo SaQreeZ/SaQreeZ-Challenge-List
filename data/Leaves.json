@@ -9,6 +9,12 @@
     "password": "None",
     "records": [
         {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        },
+        {
             "user": "Wojasek",
             "link": "link",
             "percent": 81,
