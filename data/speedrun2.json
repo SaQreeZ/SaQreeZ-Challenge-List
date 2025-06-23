@@ -1,0 +1,24 @@
+{
+    "id": 121548627,
+    "name": "speedrun2",
+    "author": "tublerGDv3",
+    "creators": ["tublerGD"],
+    "verifier": "tublerGD",
+    "verification": "link",
+    "percentToQualify": 50,
+    "password": "None",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

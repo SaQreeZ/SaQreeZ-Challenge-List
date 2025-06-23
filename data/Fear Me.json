@@ -1,0 +1,18 @@
+{
+    "id": 121587164,
+    "name": "Fear Me",
+    "author": "MaybeGurt",
+    "creators": ["MaybeGurt"],
+    "verifier": "MaybeGurt",
+    "verification": "link",
+    "percentToQualify": 35,
+    "password": "None",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 49,
+            "hz": 240
+        }
+    ]
+}
