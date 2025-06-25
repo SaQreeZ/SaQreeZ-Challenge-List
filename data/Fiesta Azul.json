@@ -1,0 +1,18 @@
+{
+    "id": 121587164,
+    "name": "Fiesta Azul",
+    "author": "SaQreeZ",
+    "creators": ["SaQreeZ"],
+    "verifier": "MaybeGurt",
+    "verification": "https://youtu.be/3zUFGvDouao?si=MOmHX8VuRdePb20O&t=7",
+    "percentToQualify": 25,
+    "password": "None",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 52,
+            "hz": 240
+        }
+    ]
+}
