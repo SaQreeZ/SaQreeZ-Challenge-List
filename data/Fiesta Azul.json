@@ -13,6 +13,12 @@
             "link": "link",
             "percent": 52,
             "hz": 240
+        },
+        {
+            "user": "t0n3k",
+            "link": "link",
+            "percent": 50,
+            "hz": 240
         }
     ]
 }
