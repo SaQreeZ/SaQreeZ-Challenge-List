@@ -1,0 +1,18 @@
+{
+    "id": 121792402,
+    "name": "Wlonder",
+    "author": "tublerGDv3",
+    "creators": ["tublerGD"],
+    "verifier": "tublerGD",
+    "verification": "link",
+    "percentToQualify": 50,
+    "password": "None",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
