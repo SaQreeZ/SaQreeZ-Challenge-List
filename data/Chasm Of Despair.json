@@ -1,0 +1,18 @@
+{
+    "id": 122134441,
+    "name": "Chasm Of Despair",
+    "author": "SaQreeZ",
+    "creators": ["SaQreeZ"],
+    "verifier": "MaybeGurt",
+    "verification": "https://youtu.be/rSylW1EQvb4",
+    "percentToQualify": 50,
+    "password": "None",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 56,
+            "hz": 240
+        }
+    ]
+}
