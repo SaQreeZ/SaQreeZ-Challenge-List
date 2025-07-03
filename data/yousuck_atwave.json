@@ -21,6 +21,12 @@
             "percent": 100,
             "mobile": 1,
             "hz": 60
+        },
+        {
+            "user": "✟ DEATH & ROSE ✟",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }

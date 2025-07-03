@@ -32,6 +32,12 @@
             "link": "link",
             "percent": 55,
             "hz": 60
+        },
+        {
+            "user": "✟ DEATH & ROSE ✟",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
         }
 ]
 }
