@@ -9,12 +9,6 @@
     "password": "None",
     "records": [
         {
-            "user": "Wojasek",
-            "link": "link",
-            "percent": 52,
-            "hz": 240
-        },
-        {
             "user": "PershingPL",
             "link": "link",
             "percent": 52,
@@ -38,6 +32,12 @@
             "link": "link",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Wojasek",
+            "link": "link",
+            "percent": 100,
+            "hz": 60
         }
 ]
 }
