@@ -39,6 +39,12 @@
             "percent": 100,
             "mobile": 0,
             "hz": 60
+        },
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
