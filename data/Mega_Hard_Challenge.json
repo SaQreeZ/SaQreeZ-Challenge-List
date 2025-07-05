@@ -1,0 +1,18 @@
+{
+    "id": 122352362,
+    "name": "Mega Hard Challenge",
+    "author": "SaQreeZ",
+    "creators": ["✟ DEATH & ROSE ✟"],
+    "verifier": "✟ DEATH & ROSE ✟",
+    "verification": "https://youtu.be/K2LXT9Lg-Ak",
+    "percentToQualify": 100,
+    "password": "None",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
