@@ -37,6 +37,12 @@
             "link": "link",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "tublerGD",
+            "link": "link",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
