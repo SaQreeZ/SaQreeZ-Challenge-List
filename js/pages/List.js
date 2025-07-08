@@ -39,6 +39,7 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
+
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
@@ -54,7 +55,22 @@ export default {
                             <div class="type-title-sm">Password</div>
                             <p>{{ level.password || 'Free to Copy' }}</p>
                         </li>
+
                     </ul>
+
+                    <div class="stats">
+                    <li>
+                        <div class="type-title-sm">Enjoyment</div>
+                        <p>{{ level.enjoyment || 'No rating provided.' }}</p>
+                    </li>
+                    <li>
+                        <div class="type-title-sm">Description</div>
+                        <p>
+                            {{ level.description || 'No description provided.' }}
+                        </p>
+                    </li>
+
+                    </div>
                     <h2>Records</h2>
                     <p v-if="selected + 1 <= 50"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
                     <p v-else-if="selected +1 <= 100"><strong>{{ level.percentToQualify}}%</strong> or better to qualify</p>
