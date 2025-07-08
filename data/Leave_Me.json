@@ -1,0 +1,18 @@
+{
+    "id": 121800548,
+    "name": "Leave Me",
+    "author": "SaQreeZ",
+    "creators": ["SaQreeZ"],
+    "verifier": "Wojasek",
+    "verification": "https://youtu.be/Xs3AOaRJDAQ",
+    "percentToQualify": 50,
+    "password": "None",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 66,
+            "hz": 240
+        }
+    ]
+}
