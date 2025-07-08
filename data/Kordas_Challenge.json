@@ -1,0 +1,18 @@
+{
+    "id": 122197959,
+    "name": "Kordas Challenge",
+    "author": "MaybeGurt",
+    "creators": ["MaybeGurt"],
+    "verifier": "MaybeGurt",
+    "verification": "https://youtu.be/UxchvjeksM0",
+    "percentToQualify": 40,
+    "password": "None",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 72,
+            "hz": 240
+        }
+    ]
+}
