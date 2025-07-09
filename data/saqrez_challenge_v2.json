@@ -7,8 +7,14 @@
     "verification": "link",
     "percentToQualify": 70,
     "password": "None",
-    "enjoyment": "4/10",
+    "enjoyment": "3.5/10",
     "description": "Just some wave timings, lobotomy and triple spikes.",
     "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
