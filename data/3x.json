@@ -1,0 +1,20 @@
+{
+    "id": 112959535,
+    "name": "3x",
+    "author": "denerosz",
+    "creators": ["denerosz"],
+    "verifier": "denerosz",
+    "verification": "https://youtu.be/9SmHA3HsMsI",
+    "percentToQualify": 66,
+    "password": "None",
+    "enjoyment": "5/10",
+    "description": "3 frame perfects. Double spike on 0.5x speed. What could go wrong?",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

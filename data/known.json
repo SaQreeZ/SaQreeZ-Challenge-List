@@ -1,0 +1,20 @@
+{
+    "id": 122551029,
+    "name": "known",
+    "author": "pysznywojanek",
+    "creators": ["Wojasek"],
+    "verifier": "Wojasek",
+    "verification": "https://youtu.be/xUJT8Wgi5eY",
+    "percentToQualify": 50,
+    "password": "None",
+    "enjoyment": "4.5/10",
+    "description": "Unknown short remake i guess with ahh wave timing at the end. Wave skills and wave spam skills recommended.",
+    "records": [
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
