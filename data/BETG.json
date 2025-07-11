@@ -10,5 +10,11 @@
     "enjoyment": "5/10",
     "description": "Grief ahh wave, but blue, and hard. High CPS required.",
     "records": [
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

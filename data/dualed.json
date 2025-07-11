@@ -10,5 +10,11 @@
     "enjoyment": "2.5/10",
     "description": "A buggy dual level. Hard to leard, and hard to play.",
     "records": [
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
