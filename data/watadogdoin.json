@@ -10,5 +10,11 @@
     "enjoyment": "6/10",
     "description": "Shitty wave challenge with no deco and kinda annoying mini wave transition. Kinda fun tho.",
     "records": [
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
