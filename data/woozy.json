@@ -10,5 +10,11 @@
     "enjoyment": "8/10",
     "description": "Very yellow, chill and normal paced level, wave based. Has some tight timings, but nothing too hard.",
     "records": [
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
