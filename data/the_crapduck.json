@@ -1,0 +1,20 @@
+{
+    "id": 110379152,
+    "name": "the crapduck",
+    "author": "VerdiX094",
+    "creators": ["VerdiX094"],
+    "verifier": "VerdiX094",
+    "verification": "https://youtu.be/n23QwTzRb5Q",
+    "percentToQualify": 50,
+    "password": "None",
+    "enjoyment": "2.5/10",
+    "description": "This is a real crap, when playing on high FPS. Lmao.",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 8
+        }
+    ]
+}
