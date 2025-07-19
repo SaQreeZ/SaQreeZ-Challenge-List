@@ -1,0 +1,26 @@
+{
+    "id": 122903647,
+    "name": "i cant leave you",
+    "author": "pysznywojanek",
+    "creators": ["SaQreeZ", "Wojasek"],
+    "verifier": "Wojasek",
+    "verification": "https://youtu.be/3pyMpjGL-l8",
+    "percentToQualify": 30,
+    "password": "None",
+    "enjoyment": "4/10",
+    "description": "Leaves 5 times in a row. Fuck no.",
+    "records": [
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 31,
+            "hz": 240
+        }
+    ]
+}
