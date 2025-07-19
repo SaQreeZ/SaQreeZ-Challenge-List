@@ -1,0 +1,20 @@
+{
+    "id": 122654484,
+    "name": "Sakupen DealDough",
+    "author": "MaybeGurt",
+    "creators": ["MaybeGurt"],
+    "verifier": "MaybeGurt",
+    "verification": "https://youtu.be/3OlLJiaoUho",
+    "percentToQualify": 40,
+    "password": "None",
+    "enjoyment": "3/10",
+    "description": "Sakupen DealDough is a Sakupen Circles inspired level with tight wave timings, shitty deco, and a strange click pattern. Get ready for a grind!",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 42,
+            "hz": 240
+        }
+    ]
+}
