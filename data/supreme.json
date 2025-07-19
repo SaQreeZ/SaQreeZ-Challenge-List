@@ -1,0 +1,20 @@
+{
+    "id": 123092290,
+    "name": "supreme",
+    "author": "t0n3k",
+    "creators": ["t0n3k"],
+    "verifier": "t0n3k",
+    "verification": "https://youtu.be/QRWAi6jXjPc",
+    "percentToQualify": 50,
+    "password": "None",
+    "enjoyment": "3.5/10",
+    "description": "High speed wave based challenge with spammy ending. The spam makes its enjoyment kinda low.",
+    "records": [
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
