@@ -10,5 +10,11 @@
     "enjoyment": "4/10",
     "description": "3 Tartarus jumps. And one triple at the end. Lmaoooo.",
     "records": [
+        {
+            "user": "Hubibubi",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
