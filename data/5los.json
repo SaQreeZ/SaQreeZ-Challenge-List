@@ -10,5 +10,23 @@
     "enjoyment": "6/10",
     "description": "Straight fly challenge, 5 levels of saqrez, where my name was mispelled. But i like it.",
     "records": [
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Hubibubi",
+            "link": "link",
+            "percent": 100,
+            "hz": 165
+        }
     ]
 }
