@@ -1,0 +1,26 @@
+{
+    "id": 122881644,
+    "name": "water in the eyes",
+    "author": "tublerGD",
+    "creators": ["tublerGD"],
+    "verifier": "tublerGD",
+    "verification": "https://youtu.be/ZEvIxGvZvUc",
+    "percentToQualify": 50,
+    "password": "None",
+    "enjoyment": "5/10",
+    "description": "Ship based challenge inspired with eyes in the water.",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
