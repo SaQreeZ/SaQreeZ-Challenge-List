@@ -27,6 +27,13 @@
             "link": "link",
             "percent": 100,
             "hz": 120
+        },
+        {
+            "user": "skibidiwojasek",
+            "link": "link",
+            "percent": 100,
+            "mobile": 1,
+            "hz": 60
         }
     ]
 }
