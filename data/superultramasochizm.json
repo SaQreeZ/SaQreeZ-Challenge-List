@@ -10,5 +10,11 @@
     "enjoyment": "1/10",
     "description": "Wave spam based challenge with no deco i guess. Pray to the transitions.",
     "records": [
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
