@@ -8,7 +8,13 @@
     "percentToQualify": 50,
     "password": "None",
     "enjoyment": "2/10",
-    "description": "Spam i guess. Tonek ahh level.",
+    "description": "(It didn't mean to hurt you t0n3k, i'm sorry. DM me if you still want it taken down)",
     "records": [
+        {
+            "user": "t0n3k",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
