@@ -10,5 +10,11 @@
     "enjoyment": "6/10",
     "description": "Fast paced red challenge, with ship main gameplay (i think...), but very balanced.",
     "records": [
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

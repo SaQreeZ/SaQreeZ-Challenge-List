@@ -10,5 +10,11 @@
     "enjoyment": "3/10",
     "description": "Hard challenge. Not shortest one in our list.",
     "records": [
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
