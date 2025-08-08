@@ -1,0 +1,20 @@
+{
+    "id": 111363992,
+    "name": "Masacra",
+    "author": "t0n3k",
+    "creators": ["t0n3k"],
+    "verifier": "t0n3k",
+    "verification": "https://youtu.be/9ttZfmLB2Lo",
+    "percentToQualify": 25,
+    "password": "None",
+    "enjoyment": "4/10",
+    "description": "Silent Kocmoc music level. It's good, but fuck the predrop.",
+    "records": [
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
