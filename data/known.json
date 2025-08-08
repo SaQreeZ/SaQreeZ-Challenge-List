@@ -21,6 +21,12 @@
             "link": "link",
             "percent": 64,
             "hz": 240
+        },
+        {
+            "user": "Sevue",
+            "link": "link",
+            "percent": 52,
+            "hz": 60
         }
     ]
 }

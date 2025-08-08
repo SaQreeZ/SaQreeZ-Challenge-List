@@ -39,6 +39,18 @@
             "link": "link",
             "percent": 100,
             "hz": 165
+        },
+        {
+            "user": "Sevue",
+            "link": "link",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "YoungSzxmus",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
         }
     ]
 }
