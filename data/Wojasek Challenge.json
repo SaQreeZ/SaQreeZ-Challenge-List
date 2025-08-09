@@ -45,6 +45,12 @@
             "link": "link",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "YoungSzxmus",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
         }
     ]
 }
