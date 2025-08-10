@@ -10,5 +10,11 @@
     "enjoyment": "4.5/10",
     "description": "Balanced until the last mini wave. It's a bit annoying but the rest is fun. Good luck!",
     "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 42,
+            "hz": 360
+        }
     ]
 }
