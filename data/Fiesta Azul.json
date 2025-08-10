@@ -11,22 +11,23 @@
     "description": "NC mixed with slaugherhouse, and ice. Very hard level, wave based, tho timings at the beggining are also difficult.",
     "records": [
         {
+            "user": "YoungSzxmus",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
+        },
+        {
             "user": "SaQreeZ",
             "link": "link",
-            "percent": 52,
-            "hz": 240
+            "percent": 76,
+            "hz": 360
         },
         {
             "user": "t0n3k",
             "link": "link",
             "percent": 50,
             "hz": 240
-        },
-        {
-            "user": "YoungSzxmus",
-            "link": "link",
-            "percent": 100,
-            "hz": 480
         }
+
     ]
 }
