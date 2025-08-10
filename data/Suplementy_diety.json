@@ -10,5 +10,11 @@
     "enjoyment": "2/10",
     "description": "Just a Decompilation. But 3 times in a row. MaybeGurt is dead after seeing this.",
     "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 78,
+            "hz": 360
+        }
     ]
 }
