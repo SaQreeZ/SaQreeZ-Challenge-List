@@ -11,6 +11,12 @@
     "description": "Short wave based challenge, tho basic ship and timings skills are also required.",
     "records": [
         {
+            "user": "kubusszn",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        },
+        {
             "user": "Wojasek",
             "link": "link",
             "percent": 89,
