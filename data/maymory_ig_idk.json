@@ -10,5 +10,11 @@
     "enjoyment": "5/10",
     "description": "Memory wave level, kinda hard. Spam, wave and memory skills recommended.",
     "records": [
+        {
+            "user": "kubusszn",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
