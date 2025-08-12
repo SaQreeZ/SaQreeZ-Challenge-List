@@ -10,5 +10,11 @@
     "enjoyment": "5.5/10",
     "description": "Wave hell with plenty fixed hitboxes. Duhhh.",
     "records": [
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
