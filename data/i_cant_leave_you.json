@@ -17,16 +17,22 @@
             "hz": 240
         },
         {
-            "user": "SaQreeZ",
-            "link": "link",
-            "percent": 31,
-            "hz": 240
-        },
-        {
             "user": "YoungSzxmus",
             "link": "link",
             "percent": 100,
             "hz": 480
+        },
+        {
+            "user": "kubusszn",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 31,
+            "hz": 240
         }
     ]
 }
