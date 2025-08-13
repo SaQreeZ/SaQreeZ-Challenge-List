@@ -10,5 +10,11 @@
     "enjoyment": "6/10",
     "description": "Non-pwaytested~ wav chawwenge. It is actually goooood UvU! It makes you beautiful :3. Come join us UwU!",
     "records": [
+        {
+            "user": "YoungSzxmus",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
+        }
     ]
 }

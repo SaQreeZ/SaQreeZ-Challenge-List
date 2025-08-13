@@ -11,9 +11,15 @@
     "description": "Very pink level, and not playtested well, colors were inspired with FINAL FANTASY. 1 Frame perfect at the start.",
     "records": [
         {
+            "user": "kubusszn",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        },
+        {
             "user": "YoungSzxmus",
             "link": "link",
-            "percent": 50,
+            "percent": 91,
             "hz": 480
         }
     ]
