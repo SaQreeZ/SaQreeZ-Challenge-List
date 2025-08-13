@@ -145,6 +145,9 @@ export default {
                     <p>
                         You can submit the level even if its to easy to be in the main list.
                     </p>
+                    <p>
+                        No copying levels (Needs SaQreeZ's "Yes").
+                    </p>
                 </div>
             </div>
         </main>
