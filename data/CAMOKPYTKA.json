@@ -23,22 +23,23 @@
             "hz": 240
         },
         {
-            "user": "Wojasek",
+            "user": "qnet309",
             "link": "link",
-            "percent": 50,
+            "percent": 100,
             "hz": 240
         },
         {
             "user": "YoungSzxmus",
             "link": "link",
-            "percent": 46,
+            "percent": 100,
             "hz": 480
         },
         {
-            "user": "qnet309",
+            "user": "Wojasek",
             "link": "link",
-            "percent": 100,
+            "percent": 50,
             "hz": 240
         }
+
     ]
 }
