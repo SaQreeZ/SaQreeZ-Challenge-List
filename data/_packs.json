@@ -1,0 +1,102 @@
+[
+    {
+        "id": "former-top-1",
+        "name": "Former Top 1 Pack",
+        "description": "Kompletna seria poprzednich popularnych poziomów Top 1",
+        "author": "SaQreeZ",
+        "levels": [
+            "Wonder",
+            "Leaves",
+            "LavophobiX"
+        ]
+    },
+    {
+        "id": "not-wave-based",
+        "name": "Not Wave Based Pack",
+        "description": "Zestaw poziomów, które nie są oparte na gameplayu wave, ale nadal są trudne i wymagające",
+        "author": "SaQreeZ, t0n3k",
+        "levels": [
+            "ATOMIC PULSE",
+            "1000 EYES",
+            "hito"
+        ]
+    },
+    {
+        "id": "t0n3k",
+        "name": "t0n3k Pack",
+        "description": "Zestaw niektórych poziomów autorstwa t0n3k.",
+        "author": "t0n3k",
+        "levels": [
+            "the option",
+            "rainy day",
+            "ultimate_wave"
+        ]
+    },
+    {
+        "id": "og-challenges",
+        "name": "OG Challenges Pack",
+        "description": "Zestaw poziomów które są starsze od listy.",
+        "author": "SaQreeZ",
+        "levels": [
+            "Brilden",
+            "Defuse",
+            "Fly High"
+        ]
+    },
+    {
+        "id": "short",
+        "name": "Short Pack",
+        "description": "Zestaw najkrótszych poziomów na liście.",
+        "author": "SaQreeZ, Wojasek",
+        "levels": [
+            "3 seconds brainrot",
+            "ave",
+            "ThreeSheesh"
+        ]
+    },
+    {
+        "id": "uppercase",
+        "name": "UPPERCASE Pack",
+        "description": "Zestaw poziomów z DUŻYMI LITERAMI.",
+        "author": "SaQreeZ",
+        "levels": [
+            "ATOMIC PULSE",
+            "1000 EYES",
+            "CAMOKPYTKA"
+        ]
+    },
+    {
+        "id": "spam",
+        "name": "Spam Pack",
+        "description": "Zestaw poziomów ze spamem.",
+        "author": "denerosz, t0n3k",
+        "levels": [
+            "drake_circles",
+            "hAtino",
+            "UnnamU74"
+        ]
+    },
+    {
+        "id": "leaves",
+        "name": "Leaves Pack",
+        "description": "Zestaw wszystkich poziomów Leaves.",
+        "author": "t0n3k",
+        "levels": [
+            "Leaves",
+            "Leave_Me",
+            "i_cant_leave_you",
+            "blindeaves"
+        ]
+    },
+    {
+        "id": "theikipolis",
+        "name": "Theikipolis Pack",
+        "description": "Kompletna seria poziomów Theikipolis od SaQreeZ",
+        "author": "SaQreeZ",
+        "levels": [
+            "Theikipolis",
+            "Theikipolis_II",
+            "Theikipolis_III"
+        ]
+    }
+]

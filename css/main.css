@@ -7,6 +7,7 @@
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
+    --color-border: var(--color-primary)
 }
 
 main.dark,

@@ -48,6 +48,7 @@ export async function fetchEditors() {
 
 export async function fetchLeaderboard() {
     const list = await fetchList();
+    const packs = await fetchPacks();
 
     const scoreMap = {};
     const errs = [];
@@ -62,10 +63,11 @@ export async function fetchLeaderboard() {
             (u) => u.toLowerCase() === level.verifier.toLowerCase(),
         ) || level.verifier;
         scoreMap[verifier] ??= {
-            verified: [],
-            completed: [],
-            progressed: [],
-        };
+                verified: [],
+                completed: [],
+                progressed: [],
+                packs: [],
+            };
         const { verified } = scoreMap[verifier];
         verified.push({
             rank: rank + 1,
@@ -83,6 +85,7 @@ export async function fetchLeaderboard() {
                 verified: [],
                 completed: [],
                 progressed: [],
+                packs: [],
             };
             const { completed, progressed } = scoreMap[user];
             if (record.percent === 100) {
@@ -105,6 +108,48 @@ export async function fetchLeaderboard() {
         });
     });
 
+    // Check completed packs for each user
+    if (packs) {
+        Object.entries(scoreMap).forEach(([user, scores]) => {
+            const { completed, verified } = scores;
+            const userCompletedLevelPaths = new Set();
+            
+            // Collect all completed level paths (100%) from completed records
+            // We need to find the path for each completed level
+            completed.forEach(record => {
+                // Find the level path by matching level name
+                const levelData = list.find(([level, err]) => level && level.name === record.level);
+                if (levelData && levelData[0]) {
+                    userCompletedLevelPaths.add(levelData[0].path);
+                }
+            });
+            
+            // Collect all verified level paths (verifications count as 100%)
+            verified.forEach(record => {
+                // Find the level path by matching level name
+                const levelData = list.find(([level, err]) => level && level.name === record.level);
+                if (levelData && levelData[0]) {
+                    userCompletedLevelPaths.add(levelData[0].path);
+                }
+            });
+            
+            // Check each pack
+            packs.forEach(pack => {
+                const packCompleted = pack.levels.every(levelName => {
+                    // Check if user has this level path completed or verified
+                    return userCompletedLevelPaths.has(levelName);
+                });
+                
+                if (packCompleted) {
+                    scores.packs.push({
+                        name: pack.name,
+                        score: 0, // Packs don't give points
+                    });
+                }
+            });
+        });
+    }
+
     // Wrap in extra Object containing the user and total score
     const res = Object.entries(scoreMap).map(([user, scores]) => {
         const { verified, completed, progressed } = scores;
@@ -121,4 +166,15 @@ export async function fetchLeaderboard() {
 
     // Sort by total score
     return [res.sort((a, b) => b.total - a.total), errs];
+}
+
+export async function fetchPacks() {
+    try {
+        const packsResult = await fetch(`${dir}/_packs.json`);
+        const packs = await packsResult.json();
+        return packs;
+    } catch {
+        console.error('Failed to load packs.');
+        return null;
+    }
 }

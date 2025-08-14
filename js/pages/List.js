@@ -1,7 +1,7 @@
 import { store } from "../main.js";
 import { embed } from "../util.js";
 import { score } from "../score.js";
-import { fetchEditors, fetchList } from "../content.js";
+import { fetchEditors, fetchList, fetchPacks } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
@@ -22,14 +22,22 @@ export default {
         </main>
         <main v-else class="page-list">
             <div class="list-container">
+                <div class="search-container">
+                    <input 
+                        type="text" 
+                        v-model="searchQuery" 
+                        placeholder="Szukaj poziomów..." 
+                        class="search-input"
+                    >
+                </div>
                 <table class="list" v-if="list">
-                    <tr v-for="([level, err], i) in list">
+                    <tr v-for="([level, err], i) in filteredList" :key="i">
                         <td class="rank">
-                            <p v-if="i + 1 <= 100" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-if="getOriginalIndex(i) + 1 <= 100" class="type-label-lg">#{{ getOriginalIndex(i) + 1 }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
-                            <button @click="selected = i">
+                            <button @click="selected = getOriginalIndex(i)">
                                 <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
                         </td>
@@ -42,6 +50,14 @@ export default {
 
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                    
+                    <!-- Pack Information -->
+                    <div v-if="levelPacks.length > 0" class="level-packs">
+                        <div class="type-title-sm">Part of Packs</div>
+                        <div class="packs-list">
+                            <span v-for="pack in levelPacks" :key="pack.id" class="pack-badge">{{ pack.name }}</span>
+                        </div>
+                    </div>
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
@@ -155,15 +171,29 @@ export default {
     data: () => ({
         list: [],
         editors: [],
+        packs: [],
         loading: true,
         selected: 0,
         errors: [],
         roleIconMap,
-        store
+        store,
+        searchQuery: ''
     }),
     computed: {
         level() {
             return this.list[this.selected][0];
+        },
+        filteredList() {
+            if (!this.searchQuery.trim()) {
+                return this.list;
+            }
+            
+            const query = this.searchQuery.toLowerCase().trim();
+            return this.list.filter((item) => {
+                const [level] = item;
+                if (!level) return false;
+                return level.name.toLowerCase().includes(query);
+            });
         },
         video() {
             if (!this.level.showcase) {
@@ -176,11 +206,19 @@ export default {
                     : this.level.verification
             );
         },
+        levelPacks() {
+            if (!this.level || !this.packs.length) return [];
+            
+            return this.packs.filter(pack => 
+                pack.levels.includes(this.level.path)
+            );
+        },
     },
     async mounted() {
         // Hide loading spinner
         this.list = await fetchList();
         this.editors = await fetchEditors();
+        this.packs = await fetchPacks();
 
         // Error handling
         if (!this.list) {
@@ -205,5 +243,24 @@ export default {
     methods: {
         embed,
         score,
+        getOriginalIndex(filteredIndex) {
+            if (!this.searchQuery.trim()) {
+                return filteredIndex;
+            }
+            
+            const query = this.searchQuery.toLowerCase().trim();
+            let currentFilteredIndex = 0;
+            
+            for (let i = 0; i < this.list.length; i++) {
+                const [level] = this.list[i];
+                if (level && level.name.toLowerCase().includes(query)) {
+                    if (currentFilteredIndex === filteredIndex) {
+                        return i;
+                    }
+                    currentFilteredIndex++;
+                }
+            }
+            return filteredIndex;
+        },
     },
 };
