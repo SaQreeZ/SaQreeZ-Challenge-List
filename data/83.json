@@ -22,6 +22,12 @@
             "percent": 100,
             "mobile": 1,
             "hz": 60
+        },
+        {
+            "user": "qnet309",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
