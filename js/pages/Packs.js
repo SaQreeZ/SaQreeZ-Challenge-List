@@ -1,5 +1,5 @@
 import { store } from "../main.js";
-import { fetchPacks, fetchList } from "../content.js";
+import { fetchPacks, fetchList, fetchLeaderboard } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
 
@@ -48,6 +48,13 @@ export default {
                             <span class="level-name">{{ levelData.name }}</span>
                         </div>
                     </div>
+                    
+                    <h3 v-if="packCompletedBy.length > 0">Ukończone przez ({{ packCompletedBy.length }})</h3>
+                    <div v-if="packCompletedBy.length > 0" class="completed-users">
+                        <div v-for="user in packCompletedBy" :key="user" class="user-badge">
+                            <span>{{ user }}</span>
+                        </div>
+                    </div>
                 </div>
             </div>
                 <div class="errors" v-if="errors.length > 0">
@@ -64,7 +71,8 @@ export default {
         store,
         levelsList: [],
         levelsData: {},
-        searchQuery: ''
+        searchQuery: '',
+        leaderboard: []
     }),
     computed: {
         selectedPack() {
@@ -101,18 +109,33 @@ export default {
                 ...level,
                 rank: level.rank === 999999 ? '?' : level.rank
             }));
+        },
+        packCompletedBy() {
+            if (!this.selectedPack || !this.leaderboard.length) return [];
+            
+            const completedUsers = [];
+            this.leaderboard.forEach(user => {
+                const userCompletedPack = user.packs.some(pack => pack.name === this.selectedPack.name);
+                if (userCompletedPack) {
+                    completedUsers.push(user.user);
+                }
+            });
+            
+            return completedUsers.sort();
         }
     },
     async mounted() {
         try {
-            // Ładuj packs i listę poziomów równolegle
-            const [packsData, levelsListData] = await Promise.all([
+            // Ładuj packs, listę poziomów i leaderboard równolegle
+            const [packsData, levelsListData, leaderboardData] = await Promise.all([
                 fetchPacks(),
-                fetchList()
+                fetchList(),
+                fetchLeaderboard()
             ]);
             
             this.packs = packsData;
             this.levelsList = levelsListData;
+            this.leaderboard = leaderboardData[0]; // fetchLeaderboard zwraca [users, errors]
             
             // Przygotuj mapę danych poziomów dla szybkiego dostępu
             if (levelsListData) {

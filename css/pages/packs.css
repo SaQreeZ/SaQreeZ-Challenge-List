@@ -199,6 +199,40 @@
     font-family: "Lexend Deca", sans-serif;
     font-size: 17.1428571429px;
     line-height: 28px;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.page-packs .completed-users {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.page-packs .user-badge {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.page-packs .user-badge:hover {
+    background-color: var(--color-primary-hover);
+    transform: translateY(-1px);
+}
+
+.page-packs .user-badge span {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.2;
+    -webkit-font-smoothing: subpixel-antialiased;
+    line-height: 28px;
     font-weight: 500;
     -webkit-font-smoothing: subpixel-antialiased;
     color: var(--color-on-background);
