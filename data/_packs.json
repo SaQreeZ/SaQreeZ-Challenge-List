@@ -98,5 +98,53 @@
             "Theikipolis_II",
             "Theikipolis_III"
         ]
+    },
+    {
+        "id": "remake-1",
+        "name": "Remake Pack I",
+        "description": "Pierwsza seria poziomów która została zremake'owana od 0 z innych poziomów na oficjalnej liście challenge.",
+        "author": "SaQreeZ",
+        "levels": [
+            "ave",
+            "Fly High",
+            "ATOMIC PULSE"
+        ]
+    },
+    {
+        "id": "remake-2",
+        "name": "Remake Pack II",
+        "description": "Druga seria troche trudniejszych poziomów niż pierwszy pack która została zremake'owana od 0 z innych poziomów na oficjalnej liście challenge.",
+        "author": "SaQreeZ, Wojasek",
+        "levels": [
+            "cooker",
+            "woozy",
+            "Theikipolis_II",
+            "known"
+        ]
+    },
+    {
+        "id": "remake-3",
+        "name": "Remake Pack III",
+        "description": "Trzecia seria jeszcze trudniejszych poziomów niż 2 poprzednie packi która została zremake'owana od 0 z innych poziomów na oficjalnej liście challenge.",
+        "author": "SaQreeZ",
+        "levels": [
+            "LavophobiX",
+            "d_minor",
+            "wav",
+            "1000 EYES"
+        ]
+    },
+    {
+        "id": "remake-4",
+        "name": "Remake Pack IV",
+        "description": "Czwarta seria jeszcze jeszcze trudniejszych poziomów niż 3 poprzednie packi która została zremake'owana od 0 z innych poziomów na oficjalnej liście challenge.",
+        "author": "SaQreeZ",
+        "levels": [
+            "Aquatic",
+            "Wonder",
+            "PTEROMERHANOPHOBIA",
+            "Maybe_lvl_idk_UWU",
+            "Chasm Of Despair"
+        ]
     }
 ]
