@@ -1,0 +1,20 @@
+{
+    "id": 123364908,
+    "name": "aeaeaeaeaeaeaeaeaeae",
+    "author": "denerosz",
+    "creators": ["denerosz"],
+    "verifier": "denerosz",
+    "verification": "link",
+    "percentToQualify": 69,
+    "password": "None",
+    "enjoyment": "4/10",
+    "description": "Spam maybe?",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
+}
