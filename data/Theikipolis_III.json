@@ -21,6 +21,12 @@
             "link": "link",
             "percent": 80,
             "hz": 480
+        },
+        {
+            "user": "qnet309",
+            "link": "link",
+            "percent": 77,
+            "hz": 240
         }
     ]
 }
