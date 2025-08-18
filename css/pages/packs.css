@@ -15,6 +15,8 @@
 .search-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 1rem;
     margin-bottom: 1rem;
     grid-column: 1 / -1;
 }
@@ -39,6 +41,28 @@
 
 .search-input::placeholder {
     color: var(--color-text-muted);
+}
+
+.sort-select {
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--color-border);
+    border-radius: 8px;
+    background-color: var(--color-bg-alt);
+    color: var(--color-text);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+    min-width: 200px;
+}
+
+.sort-select:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+.sort-select:hover {
+    border-color: var(--color-primary);
 }
 
 .page-packs > div {
@@ -127,6 +151,23 @@
 }
 
 .page-packs .pack-card.active .level-count {
+    background-color: var(--color-on-primary);
+    color: var(--color-primary);
+}
+
+.page-packs .pack-card .pack-points {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 17.1428571429px;
+    line-height: 28px;
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.page-packs .pack-card.active .pack-points {
     background-color: var(--color-on-primary);
     color: var(--color-primary);
 }

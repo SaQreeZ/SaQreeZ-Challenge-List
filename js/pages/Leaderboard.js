@@ -63,6 +63,9 @@ export default {
                                 <td class="level">
                                     <span class="type-label-lg">{{ pack.name }}</span>
                                 </td>
+                                <td class="score">
+                                    <p>+{{ localize(pack.score) }}</p>
+                                </td>
                             </tr>
                         </table>
                         <h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length}})</h2>

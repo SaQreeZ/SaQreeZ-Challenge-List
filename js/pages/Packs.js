@@ -1,5 +1,6 @@
 import { store } from "../main.js";
 import { fetchPacks, fetchList, fetchLeaderboard } from "../content.js";
+import { score, round } from "../score.js";
 
 import Spinner from "../components/Spinner.js";
 
@@ -14,7 +15,7 @@ export default {
             <div class="packs-container">
                 <div class="packs-list">
                     <h1>Packs</h1>
-                    <p class="description">Zestawy poziomów do ukończenia. Każdy pack daje 0 punktów, ale zostaje zapisany na Twoim profilu po ukończeniu wszystkich poziomów.</p>
+                    <p class="description">Zestawy poziomów do ukończenia. Każdy pack daje punkty równe sumie punktów wszystkich poziomów podzielonej przez 2.</p>
                     <div class="search-container">
                         <input 
                             type="text" 
@@ -22,6 +23,10 @@ export default {
                             placeholder="Szukaj packów..." 
                             class="search-input"
                         >
+                        <select v-model="sortOption" class="sort-select">
+                            <option value="none">Bez sortowania</option>
+                            <option value="points">Sortuj według punktów</option>
+                        </select>
                     </div>
                     <div class="pack-grid">
                         <div v-for="(pack, i) in filteredPacks" :key="pack.id" class="pack-card" :class="{ 'active': selected === getOriginalIndex(i) }" @click="selected = getOriginalIndex(i)">
@@ -30,6 +35,7 @@ export default {
                             <p class="pack-description">{{ pack.description }}</p>
                             <div class="pack-stats">
                                 <span class="level-count">{{ pack.levels.length }} poziomów</span>
+                                <span class="pack-points">{{ calculatePackPoints(pack) }} punktów</span>
                             </div>
                         </div>
                     </div>
@@ -40,6 +46,7 @@ export default {
                     <h2>{{ selectedPack.name }}</h2>
                     <p class="pack-author">Autor: {{ selectedPack.author }}</p>
                     <p class="pack-description">{{ selectedPack.description }}</p>
+                    <p class="pack-points"><strong>Punkty za ukończenie: {{ selectedPackPoints }}</strong></p>
                     
                     <h3>Poziomy w packu ({{ selectedPack.levels.length }})</h3>
                     <div class="levels-list">
@@ -72,19 +79,30 @@ export default {
         levelsList: [],
         levelsData: {},
         searchQuery: '',
-        leaderboard: []
+        leaderboard: [],
+        sortOption: 'none'
     }),
     computed: {
+        sortedPacks() {
+            if (this.sortOption === 'points') {
+                return [...this.packs].sort((a, b) => {
+                    const pointsA = this.calculatePackPoints(a);
+                    const pointsB = this.calculatePackPoints(b);
+                    return pointsB - pointsA; // Sortowanie malejące
+                });
+            }
+            return this.packs; // Oryginalna kolejność
+        },
         selectedPack() {
-            return this.packs[this.selected];
+            return this.sortedPacks[this.selected];
         },
         filteredPacks() {
             if (!this.searchQuery.trim()) {
-                return this.packs;
+                return this.sortedPacks;
             }
             
             const query = this.searchQuery.toLowerCase().trim();
-            return this.packs.filter((pack) => {
+            return this.sortedPacks.filter((pack) => {
                 if (!pack) return false;
                 return pack.name.toLowerCase().includes(query) || 
                        pack.description.toLowerCase().includes(query);
@@ -122,6 +140,23 @@ export default {
             });
             
             return completedUsers.sort();
+        },
+        selectedPackPoints() {
+            if (!this.selectedPack || !this.levelsList.length) return 0;
+            
+            let totalPoints = 0;
+            this.selectedPack.levels.forEach(levelPath => {
+                const levelIndex = this.levelsList.findIndex(([level]) => level && level.path === levelPath);
+                if (levelIndex !== -1) {
+                    const [level] = this.levelsList[levelIndex];
+                    if (level) {
+                        const levelScore = score(levelIndex + 1, 100, level.percentToQualify);
+                        totalPoints += levelScore;
+                    }
+                }
+            });
+            
+            return round(totalPoints / 2);
         }
     },
     async mounted() {
@@ -157,6 +192,23 @@ export default {
         }
     },
     methods: {
+        calculatePackPoints(pack) {
+            if (!pack || !this.levelsList.length) return 0;
+            
+            let totalPoints = 0;
+            pack.levels.forEach(levelPath => {
+                const levelIndex = this.levelsList.findIndex(([level]) => level && level.path === levelPath);
+                if (levelIndex !== -1) {
+                    const [level] = this.levelsList[levelIndex];
+                    if (level) {
+                        const levelScore = score(levelIndex + 1, 100, level.percentToQualify);
+                        totalPoints += levelScore;
+                    }
+                }
+            });
+            
+            return round(totalPoints / 2);
+        },
         getOriginalIndex(filteredIndex) {
             if (!this.searchQuery.trim()) {
                 return filteredIndex;
@@ -166,7 +218,7 @@ export default {
             const filteredPack = this.filteredPacks[filteredIndex];
             if (!filteredPack) return filteredIndex;
             
-            return this.packs.findIndex((pack) => 
+            return this.sortedPacks.findIndex((pack) => 
                 pack && pack.name === filteredPack.name
             );
         }

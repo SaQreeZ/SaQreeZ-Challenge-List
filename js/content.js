@@ -141,9 +141,29 @@ export async function fetchLeaderboard() {
                 });
                 
                 if (packCompleted) {
+                    // Calculate pack score: sum of all level scores divided by 2
+                    let packScore = 0;
+                    pack.levels.forEach(levelName => {
+                        // Find the level in the list to get its rank
+                        const levelIndex = list.findIndex(([level, err]) => 
+                            level && level.path === levelName
+                        );
+                        if (levelIndex !== -1) {
+                            const [level] = list[levelIndex];
+                            if (level) {
+                                // Calculate score for 100% completion
+                                const levelScore = score(levelIndex + 1, 100, level.percentToQualify);
+                                packScore += levelScore;
+                            }
+                        }
+                    });
+                    
+                    // Divide total pack score by 2
+                    packScore = round(packScore / 2);
+                    
                     scores.packs.push({
                         name: pack.name,
-                        score: 0, // Packs don't give points
+                        score: packScore,
                     });
                 }
             });
@@ -152,10 +172,12 @@ export async function fetchLeaderboard() {
 
     // Wrap in extra Object containing the user and total score
     const res = Object.entries(scoreMap).map(([user, scores]) => {
-        const { verified, completed, progressed } = scores;
-        const total = [verified, completed, progressed]
+        const { verified, completed, progressed, packs } = scores;
+        const levelTotal = [verified, completed, progressed]
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
+        const packTotal = packs.reduce((prev, cur) => prev + cur.score, 0);
+        const total = levelTotal + packTotal;
 
         return {
             user,
