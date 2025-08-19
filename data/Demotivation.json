@@ -10,5 +10,11 @@
     "enjoyment": "2.5/10",
     "description": "Fuckass superbuffed decompilation. MaybeGurt wouldnt even think about this shit. (Recommended for torturing this guy)",
     "records": [
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }
