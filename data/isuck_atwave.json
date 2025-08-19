@@ -34,6 +34,12 @@
             "link": "link",
             "percent": 100,
             "hz": 480
+        },
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
