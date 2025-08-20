@@ -10,5 +10,11 @@
     "enjoyment": "3/10",
     "description": "MaybeGurt likes Slaughterhouse. This is a wave level, with no deco. Recommended for torturing this guy.",
     "records": [
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }
