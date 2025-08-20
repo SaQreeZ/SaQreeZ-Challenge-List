@@ -41,6 +41,12 @@
             "hz": 60
         },
         {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 120
+        },
+        {
             "user": "Sevue",
             "link": "link",
             "percent": 52,

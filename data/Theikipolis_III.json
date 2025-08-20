@@ -17,6 +17,12 @@
             "hz": 240
         },
         {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 120
+        },
+        {
             "user": "SaQreeZ",
             "link": "link",
             "percent": 80,

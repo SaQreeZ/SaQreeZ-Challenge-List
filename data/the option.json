@@ -35,6 +35,12 @@
             "hz": 480
         },
         {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 120
+        },
+        {
             "user": "tublerGD",
             "link": "link",
             "percent": 67,
