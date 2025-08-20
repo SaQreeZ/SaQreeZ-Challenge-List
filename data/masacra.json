@@ -23,6 +23,12 @@
             "hz": 480
         },
         {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 120
+        },
+        {
             "user": "qnet309",
             "link": "link",
             "percent": 85,
