@@ -11,10 +11,22 @@
     "description": "I have no fucking idea how this name even came to be, but okay.",
     "records": [
         {
+            "user": "YoungSzxmus",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
+        },
+        {
             "user": "Specie",
             "link": "link",
             "percent": 100,
             "hz": 120
+        },
+        {
+            "user": "kubusszn",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
