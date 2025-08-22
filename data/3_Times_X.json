@@ -10,5 +10,11 @@
     "enjoyment": "2.5/10",
     "description": "3 120fps frame perfects. Wave.",
     "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
+        }
     ]
 }
