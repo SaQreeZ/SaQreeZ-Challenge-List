@@ -11,6 +11,12 @@
     "description": "Eric Cartman singing this shit. Disrection Advised inspired.",
     "records": [
         {
+            "user": "kubusszn",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        },
+        {
             "user": "SaQreeZ",
             "link": "link",
             "percent": 52,
