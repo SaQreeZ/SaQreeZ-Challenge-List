@@ -1,0 +1,20 @@
+{
+    "id": 121768009,
+    "name": "Every Start",
+    "author": "SaQreeZ",
+    "creators": ["SaQreeZ"],
+    "verifier": "Specie",
+    "verification": "https://youtu.be/IIT3z-RCFBc",
+    "percentToQualify": 25,
+    "password": "None",
+    "enjoyment": "6.5/10",
+    "description": "Every End but not on steroids.",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 80,
+            "hz": 480
+        }
+    ]
+}

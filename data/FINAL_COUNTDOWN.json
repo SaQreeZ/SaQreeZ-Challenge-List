@@ -1,0 +1,20 @@
+{
+    "id": 124868569,
+    "name": "FINAL COUNTDOWN",
+    "author": "SaQreeZ",
+    "creators": ["SaQreeZ"],
+    "verifier": "SaQreeZ",
+    "verification": "https://youtu.be/pUXfsvA9fpE",
+    "percentToQualify": 55,
+    "password": "None",
+    "enjoyment": "5/10",
+    "description": "8 jumps of hell on 60 fps.",
+    "records": [
+        {
+            "user": "YoungSzxmus",
+            "link": "link",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

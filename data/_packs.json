@@ -146,5 +146,16 @@
             "Maybe_lvl_idk_UWU",
             "Chasm Of Despair"
         ]
+    },
+    {
+        "id": "x-pack",
+        "name": "X Pack",
+        "description": "Paczka X, nie związania z ulubionymi filmami.",
+        "author": "denerosz",
+        "levels": [
+            "3_Times_X",
+            "3x",
+            "Triple_X"
+        ]
     }
 ]

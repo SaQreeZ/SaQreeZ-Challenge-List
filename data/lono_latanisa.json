@@ -1,0 +1,20 @@
+{
+    "id": 124652362,
+    "name": "lono latanisa",
+    "author": "SaQreeZ",
+    "creators": ["PikmiQ"],
+    "verifier": "PikmiQ",
+    "verification": "link",
+    "percentToQualify": 45,
+    "password": "None",
+    "enjoyment": "6.5/10",
+    "description": "I have no fucking idea how this name even came to be, but okay.",
+    "records": [
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "id": 117620451,
+    "name": "Kawaki wo Ameku",
+    "author": "PikmiQ",
+    "creators": ["PikmiQ"],
+    "verifier": "PikmiQ",
+    "verification": "link",
+    "percentToQualify": 100,
+    "password": "None",
+    "enjoyment": "5/10",
+    "description": "Okay, but fix the fucass buggy random gameplay with transitions. For god sake.",
+    "records": [
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

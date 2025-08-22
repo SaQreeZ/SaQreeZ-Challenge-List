@@ -1,0 +1,20 @@
+{
+    "id": 123543732,
+    "name": "SaQreeZ Challenge v3",
+    "author": "denerosz",
+    "creators": ["denerosz"],
+    "verifier": "denerosz",
+    "verification": "link",
+    "percentToQualify": 50,
+    "password": "None",
+    "enjoyment": "3/10",
+    "description": "Ball timings. Creator of this level sacrificed his balls for this. MaybeGurt still hasn't cleared Decompilation.",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

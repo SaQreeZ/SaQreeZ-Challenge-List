@@ -1,0 +1,26 @@
+{
+    "id": 123074259,
+    "name": "Gaming Keyboard Ahh",
+    "author": "denerosz",
+    "creators": ["denerosz"],
+    "verifier": "denerosz",
+    "verification": "link",
+    "percentToQualify": 50,
+    "password": "None",
+    "enjoyment": "5/10",
+    "description": "Gaming tripplets.",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
+        },
+        {
+            "user": "kubusszn",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
