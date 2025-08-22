@@ -100,6 +100,17 @@
         ]
     },
     {
+        "id": "x-pack",
+        "name": "X Pack",
+        "description": "Paczka X, nie związania z ulubionymi filmami.",
+        "author": "denerosz",
+        "levels": [
+            "3_Times_X",
+            "3x",
+            "Triple_X"
+        ]
+    },
+    {
         "id": "remake-1",
         "name": "Remake Pack I",
         "description": "Pierwsza seria poziomów która została zremake'owana od 0 z innych poziomów na oficjalnej liście challenge.",
@@ -148,14 +159,16 @@
         ]
     },
     {
-        "id": "x-pack",
-        "name": "X Pack",
-        "description": "Paczka X, nie związania z ulubionymi filmami.",
-        "author": "denerosz",
+        "id": "remake-5",
+        "name": "Remake Pack V",
+        "description": "Piąta seria jeszcze jeszcze jeszcze trudniejszych poziomów niż 4 poprzednie packi która została zremake'owana od 0 z innych poziomów na oficjalnej liście challenge (albo innych).",
+        "author": "SaQreeZ",
         "levels": [
-            "3_Times_X",
-            "3x",
-            "Triple_X"
+            "Amnesia",
+            "Fiesta Azul",
+            "Every_Start",
+            "FINAL_COUNTDOWN",
+            "raw"
         ]
     }
 ]

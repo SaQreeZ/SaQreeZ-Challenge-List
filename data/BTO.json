@@ -1,0 +1,20 @@
+{
+    "id": 124699921,
+    "name": "Burned To Oblivion",
+    "author": "kubusszn",
+    "creators": ["kubusszn"],
+    "verifier": "kubusszn",
+    "verification": "https://www.youtube.com/watch?v=gdFRz246e_k",
+    "percentToQualify": 25,
+    "password": "None",
+    "enjoyment": "7/10",
+    "description": "Oblivion inspired level, but it's kinda ' more cheap' and idk.",
+    "records": [
+        {
+            "user": "YoungSzxmus",
+            "link": "link",
+            "percent": 75,
+            "hz": 480
+        }
+    ]
+}
