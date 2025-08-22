@@ -8,7 +8,7 @@
     "percentToQualify": 40,
     "password": "None",
     "enjoyment": "4.5/10",
-    "description": "Decompilation is a level made for 2 hands (NOT 2 PLAYERS). MaybeGurt biggest enemy.",
+    "description": "Decompilation is a level made for 2 hands (NOT 2 PLAYERS). MaybeGurt biggest defeated enemy (GGS).",
     "records": [
         {
             "user": "PershingPL",
@@ -39,6 +39,12 @@
             "user": "MaybeGurt",
             "link": "link",
             "percent": 50,
+            "hz": 240
+        },
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
             "hz": 240
         }
     ]
