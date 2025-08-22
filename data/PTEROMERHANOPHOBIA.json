@@ -11,12 +11,6 @@
     "description": "Pteromerhanophobia is the fear of flying. White and black level with red flashes. Wave timings and speed changes are the main focus of this level. It is a short level, but it has some tight timings.",
     "records": [
         {
-            "user": "SaQreeZ",
-            "link": "link",
-            "percent": 69,
-            "hz": 240
-        },
-        {
             "user": "YoungSzxmus",
             "link": "link",
             "percent": 100,
@@ -33,6 +27,12 @@
             "link": "link",
             "percent": 100,
             "hz": 120
+        },
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
         }
     ]
 }

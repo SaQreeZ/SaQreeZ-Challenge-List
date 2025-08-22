@@ -10,5 +10,11 @@
     "enjoyment": "5.5/10",
     "description": "Gameplay with the goated Terraria Calamity soundtrack.",
     "records": [
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }
