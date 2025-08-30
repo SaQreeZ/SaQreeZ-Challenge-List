@@ -11,6 +11,12 @@
     "description": "Oblivion inspired level, but it's kinda 'cheap' and less claustrophobic.",
     "records": [
         {
+            "user": "kubusszn",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        },
+        {
             "user": "SaQreeZ",
             "link": "link",
             "percent": 41,
