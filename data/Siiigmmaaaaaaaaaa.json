@@ -69,6 +69,12 @@
             "link": "link",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "B0ber0",
+            "link": "link",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
