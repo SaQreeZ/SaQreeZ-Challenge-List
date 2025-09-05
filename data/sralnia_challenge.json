@@ -10,5 +10,11 @@
     "enjoyment": "5/10",
     "description": "Sraken pierdaken, nie wiem jak to opisac.",
     "records": [
+        {
+            "user": "kubusszn",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
