@@ -5,7 +5,7 @@
     "creators": ["SaQreeZ"],
     "verifier": "SaQreeZ",
     "verification": "https://youtu.be/pUXfsvA9fpE",
-    "percentToQualify": 55,
+    "percentToQualify": 51,
     "password": "None",
     "enjoyment": "5/10",
     "description": "8 jumps of hell on 60 fps.",
@@ -39,6 +39,13 @@
             "link": "link",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "PershingPL",
+            "link": "link",
+            "percent": 53,
+            "mobile": 1,
+            "hz": 60
         }
     ]
 }

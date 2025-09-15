@@ -10,5 +10,12 @@
     "enjoyment": "7.5/10",
     "description": "Kinda sync based half-memory wave challenge. I loved it actually.",
     "records": [
+        {
+            "user": "PershingPL",
+            "link": "link",
+            "percent": 41,
+            "mobile": 1,
+            "hz": 60
+        }
     ]
 }
