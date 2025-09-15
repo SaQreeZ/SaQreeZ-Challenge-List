@@ -10,5 +10,11 @@
     "enjoyment": "2.5/10",
     "description": "Not much to say, just a simple wave level. Extra hard.",
     "records": [
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
