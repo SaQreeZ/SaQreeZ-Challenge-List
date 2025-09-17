@@ -51,6 +51,12 @@
             "link": "link",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Blossip",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
