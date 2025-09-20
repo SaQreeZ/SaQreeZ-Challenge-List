@@ -10,5 +10,17 @@
     "enjoyment": "4/10",
     "description": "Slow and easy sakupen circles level.",
     "records": [
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "qnet309",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
