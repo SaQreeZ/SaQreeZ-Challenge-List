@@ -1,0 +1,20 @@
+{
+    "id": 126228250,
+    "name": "SaQreeZ Never Clear",
+    "author": "kubusszn",
+    "creators": ["kubusszn"],
+    "verifier": "kubusszn",
+    "verification": "https://youtu.be/BX2ZdmaUeF0",
+    "percentToQualify": 33,
+    "password": "None",
+    "enjoyment": "5.5/10",
+    "description": "Deorum inspired level, SQZ wont clear ts.",
+    "records": [
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
