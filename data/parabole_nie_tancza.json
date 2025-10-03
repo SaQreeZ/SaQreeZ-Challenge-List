@@ -10,5 +10,11 @@
     "enjoyment": "5/10",
     "description": "Paraballa remake, quite good.",
     "records": [
+        {
+            "user": "YoungSzxmus",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
+        }
     ]
 }
