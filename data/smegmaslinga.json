@@ -10,5 +10,11 @@
     "enjoyment": "6.5/10",
     "description": "Funny swing challenge with id seven.",
     "records": [
+        {
+            "user": "YoungSzxmus",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
+        }
     ]
 }
