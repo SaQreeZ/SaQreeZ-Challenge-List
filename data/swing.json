@@ -10,5 +10,11 @@
     "enjoyment": "3/10",
     "description": "We hate swing. Swing challenge.",
     "records": [
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
