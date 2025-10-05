@@ -10,5 +10,11 @@
     "description": "Epilepsy short wave challenge.",
     "enjoyment": "4/10",
     "records": [
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

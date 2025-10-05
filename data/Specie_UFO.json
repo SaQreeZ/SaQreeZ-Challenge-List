@@ -11,10 +11,16 @@
     "description": "Spam again. Epilepsy Warning. And there is no ufo.",
     "records": [
         {
-            "user": "qnet309",
+            "user": "SaQreeZ",
             "link": "link",
             "percent": 73,
             "hz": 480
+        },
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }

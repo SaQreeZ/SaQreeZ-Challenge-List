@@ -10,5 +10,11 @@
     "enjoyment": "5/10",
     "description": "Swing string.",
     "records": [
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
