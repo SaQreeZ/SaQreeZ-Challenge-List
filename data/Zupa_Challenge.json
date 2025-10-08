@@ -1,0 +1,20 @@
+{
+    "id": 126228250,
+    "name": "Zupa Challenge",
+    "author": "kubusszn",
+    "creators": ["kubusszn"],
+    "verifier": "kubusszn",
+    "verification": "https://youtu.be/NLxe1ENvF4g",
+    "percentToQualify": 40,
+    "password": "None",
+    "enjoyment": "5/10",
+    "description": "I dont think its music based, but well.",
+    "records": [
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
