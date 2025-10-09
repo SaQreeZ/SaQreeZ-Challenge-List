@@ -27,6 +27,12 @@
             "link": "link",
             "percent": 80,
             "hz": 480
+        },
+        {
+            "user": "LatanisGD",
+            "link": "link",
+            "percent": 77,
+            "hz": 360
         }
     ]
 }
