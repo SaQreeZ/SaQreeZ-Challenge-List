@@ -10,5 +10,11 @@
     "enjoyment": "4.5/10",
     "description": "Fuckass level. I dont think its enjoyable but, whatever.",
     "records": [
+        {
+            "user": "YoungSzxmus",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
+        }
     ]
 }
