@@ -4,17 +4,11 @@
     "author": "YoungSzxmus",
     "creators": ["YoungSzxmus"],
     "verifier": "YoungSzxmus",
-    "verification": "link",
+    "verification": "https://youtu.be/PgsLddZl-Jk",
     "percentToQualify": 50,
     "password": "None",
-    "enjoyment": "5/10",
+    "enjoyment": "2.5/10",
     "description": "Swing string.",
     "records": [
-        {
-            "user": "Specie",
-            "link": "link",
-            "percent": 100,
-            "hz": 240
-        }
     ]
 }
