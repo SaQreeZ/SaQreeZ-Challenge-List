@@ -58,6 +58,12 @@
             "percent": 53,
             "mobile": 1,
             "hz": 60
+        },
+        {
+            "user": "LatanisGD",
+            "link": "link",
+            "percent": 53,
+            "hz": 360
         }
     ]
 }
