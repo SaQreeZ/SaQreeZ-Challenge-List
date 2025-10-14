@@ -1,0 +1,20 @@
+{
+    "id": 127039839,
+    "name": "ATOMIC PULSAR",
+    "author": "YoungSzxmus",
+    "creators": ["SaQreeZ, YoungSzxmus"],
+    "verifier": "YoungSzxmus",
+    "verification": "link",
+    "percentToQualify": 42,
+    "password": "None",
+    "enjoyment": "8/10",
+    "description": "Atomic Cannon wanna be, but it's kinda accurate.",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
