@@ -52,12 +52,6 @@
             "link": "link",
             "percent": 100,
             "hz": 60
-        },
-        {
-            "user": "PikmiQ",
-            "link": "link",
-            "percent": 100,
-            "hz": 60
         }
     ]
 }
