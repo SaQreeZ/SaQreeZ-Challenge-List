@@ -11,16 +11,16 @@
     "description": "Well that is fucked. No wave in top 1? High cps, kinda similar to 1000 EYES, But on steroids. I doubt Szymus will ever clear it, but who knows. Too dirty right now to clear this shit.",
     "records": [
         {
-            "user": "YoungSzxmus",
-            "link": "link",
-            "percent": 81,
-            "hz": 480
-        },
-        {
             "user": "Specie",
             "link": "link",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "YoungSzxmus",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
         }
     ]
 }
