@@ -1,0 +1,20 @@
+{
+    "id": 127126543,
+    "name": "Emerald Blade",
+    "author": "PikmiQ",
+    "creators": ["PikmiQ"],
+    "verifier": "PikmiQ",
+    "verification": "https://youtu.be/ax6XoclDsH0",
+    "percentToQualify": 40,
+    "password": "None",
+    "enjoyment": "4/10",
+    "description": "Emerald Blade is a half consistency, half wave challenge. Slow paced.",
+    "records": [
+        {
+            "user": "YoungSzxmus",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
+}
