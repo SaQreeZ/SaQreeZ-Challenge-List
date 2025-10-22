@@ -1,0 +1,20 @@
+{
+    "id": 127245097,
+    "name": "Fabi Never Clear",
+    "author": "kubusszn",
+    "creators": ["kubusszn"],
+    "verifier": "kubusszn",
+    "verification": "https://youtu.be/VvpUPtgAoj8",
+    "percentToQualify": 25,
+    "password": "None",
+    "enjoyment": "4.5/10",
+    "description": "Claustrophobic lul",
+    "records": [
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
