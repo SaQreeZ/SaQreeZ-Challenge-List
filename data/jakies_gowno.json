@@ -1,0 +1,20 @@
+{
+    "id": 127279166,
+    "name": "jakies gowno",
+    "author": "PikmiQ",
+    "creators": ["PikmiQ"],
+    "verifier": "PikmiQ",
+    "verification": "https://youtu.be/C-FxlzpaHrk",
+    "percentToQualify": 50,
+    "password": "None",
+    "enjoyment": "4/10",
+    "description": "shit.",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
