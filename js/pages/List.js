@@ -31,15 +31,13 @@ export default {
                     >
                 </div>
                 <table class="list" v-if="list">
-                    <tr v-for="([level, err], i) in filteredList" :key="i">
+                    <tr v-for="([level, err], i) in filteredList" :key="i" @click="selected = getOriginalIndex(i)" class="clickable-row" :class="{ 'active': selected == getOriginalIndex(i), 'error': !level }">
                         <td class="rank">
                             <p v-if="getOriginalIndex(i) + 1 <= 100" class="type-label-lg">#{{ getOriginalIndex(i) + 1 }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
-                        <td class="level" :class="{ 'active': selected == i, 'error': !level }">
-                            <button @click="selected = getOriginalIndex(i)">
-                                <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
-                            </button>
+                        <td class="level">
+                            <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                         </td>
                     </tr>
                 </table>

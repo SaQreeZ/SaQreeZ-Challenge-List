@@ -1,0 +1,491 @@
+/* Modern CSS Animations for SaQreeZ Challenge List */
+
+/* Respect user preferences for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom easing functions */
+:root {
+  --ease-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-spring: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Page transition animations */
+.page-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.4s var(--ease-out-cubic), transform 0.4s var(--ease-out-cubic);
+}
+
+.page-leave {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-leave-active {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s var(--ease-in-out-cubic), transform 0.3s var(--ease-in-out-cubic);
+}
+
+/* Main content fade-in */
+main {
+  animation: fadeInUp 0.6s var(--ease-out-cubic) forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Staggered table row animations */
+.list tr, .records tr {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slideInLeft 0.5s var(--ease-out-cubic) forwards;
+}
+
+.list tr:nth-child(1), .records tr:nth-child(1) { animation-delay: 0.1s; }
+.list tr:nth-child(2), .records tr:nth-child(2) { animation-delay: 0.15s; }
+.list tr:nth-child(3), .records tr:nth-child(3) { animation-delay: 0.2s; }
+.list tr:nth-child(4), .records tr:nth-child(4) { animation-delay: 0.25s; }
+.list tr:nth-child(5), .records tr:nth-child(5) { animation-delay: 0.3s; }
+.list tr:nth-child(6), .records tr:nth-child(6) { animation-delay: 0.35s; }
+.list tr:nth-child(7), .records tr:nth-child(7) { animation-delay: 0.4s; }
+.list tr:nth-child(8), .records tr:nth-child(8) { animation-delay: 0.45s; }
+.list tr:nth-child(9), .records tr:nth-child(9) { animation-delay: 0.5s; }
+.list tr:nth-child(10), .records tr:nth-child(10) { animation-delay: 0.55s; }
+.list tr:nth-child(n+11), .records tr:nth-child(n+11) { animation-delay: 0.6s; }
+
+@keyframes slideInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Enhanced hover effects */
+.list tr, .records tr {
+  transition: all 0.3s var(--ease-out-cubic);
+}
+
+.list tr:hover, .records tr:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.list tr .level button {
+  transition: all 0.3s var(--ease-out-cubic);
+}
+
+.list tr:hover .level button {
+  transform: scale(1.02);
+}
+
+/* Enhanced button animations with ripple effect */
+.btn, .nav__cta {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s var(--ease-out-cubic) !important;
+}
+
+.btn:not(:disabled):hover:not(:active), .nav__cta:hover:not(:active) {
+  transform: translateY(-3px) scale(1.02) !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25) !important;
+}
+
+.btn:active, .nav__cta:active {
+  transform: translateY(-1px) scale(0.98) !important;
+  transition: transform 0.1s var(--ease-in-out-cubic) !important;
+}
+
+/* Navigation tab enhancements */
+.nav__tab {
+  transition: all 0.3s var(--ease-out-cubic) !important;
+}
+
+.nav__tab:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-on-primary) !important;
+}
+
+.nav__tab.router-link-active {
+  animation: tabActivate 0.4s var(--ease-spring);
+}
+
+/* Navigation icon enhancements */
+.nav__icon {
+  transition: all 0.3s var(--ease-out-cubic) !important;
+}
+
+.nav__icon:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhanced ripple effect */
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  pointer-events: none;
+  transform: scale(0);
+  animation: ripple-animation 0.6s linear;
+  z-index: 1;
+}
+
+@keyframes ripple-animation {
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* Button press animation */
+.btn.pressed, .nav__cta.pressed {
+  transform: translateY(-1px) scale(0.95) !important;
+  transition: transform 0.1s var(--ease-in-out-cubic) !important;
+}
+
+/* Enhanced button states */
+.btn, .nav__cta {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s var(--ease-out-cubic) !important;
+}
+
+.btn:focus, .nav__cta:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(168, 61, 255, 0.3) !important;
+}
+
+.btn:focus:not(:focus-visible), .nav__cta:focus:not(:focus-visible) {
+  box-shadow: none !important;
+}
+
+/* Search input animations */
+.search-input {
+  position: relative;
+  transition: all 0.3s var(--ease-out-cubic) !important;
+  border: 2px solid var(--color-border) !important;
+  background: var(--color-surface) !important;
+  color: var(--color-on-surface) !important;
+}
+
+.search-input:focus {
+  outline: none !important;
+  border-color: var(--color-primary) !important;
+  box-shadow: 0 0 0 3px rgba(168, 61, 255, 0.2), 
+              0 4px 12px rgba(168, 61, 255, 0.15) !important;
+  transform: translateY(-1px) !important;
+  background: var(--color-background) !important;
+}
+
+.search-input:hover:not(:focus) {
+  border-color: var(--color-primary-variant) !important;
+  transform: translateY(-0.5px) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Search container animations */
+.search-container {
+  position: relative;
+  transition: all 0.3s var(--ease-out-cubic);
+}
+
+.search-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+  transform: translateX(-50%);
+  transition: width 0.4s var(--ease-out-cubic);
+  z-index: 1;
+}
+
+.search-container:focus-within::before {
+  width: 100%;
+}
+
+/* Typing indicator animation */
+.search-input.typing {
+  animation: typing-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes typing-pulse {
+  0%, 100% { border-color: var(--color-primary); }
+  50% { border-color: var(--color-primary-variant); }
+}
+
+/* Search results animation */
+.search-results-enter-active {
+  transition: all 0.3s var(--ease-out-cubic);
+}
+
+.search-results-leave-active {
+  transition: all 0.2s var(--ease-in-cubic);
+}
+
+.search-results-enter-from {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.search-results-leave-to {
+  opacity: 0;
+  transform: translateY(-5px);
+}
+
+/* Search placeholder animation */
+.search-input::placeholder {
+  transition: all 0.3s var(--ease-out-cubic);
+  opacity: 0.6;
+}
+
+.search-input:focus::placeholder {
+  opacity: 0.4;
+  transform: translateX(5px);
+}
+
+/* Search clear button animation */
+.search-clear {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%) scale(0);
+  background: none;
+  border: none;
+  color: var(--color-on-surface-variant);
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 50%;
+  transition: all 0.2s var(--ease-out-cubic);
+  opacity: 0;
+}
+
+.search-input:not(:placeholder-shown) + .search-clear {
+  transform: translateY(-50%) scale(1);
+  opacity: 1;
+}
+
+.search-clear:hover {
+  background: var(--color-surface-variant);
+  color: var(--color-on-surface);
+  transform: translateY(-50%) scale(1.1);
+}
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* Video player animations */
+.video-container {
+  transition: all 0.3s var(--ease-out-cubic);
+}
+
+.video-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Pack card hover animations */
+.pack-card {
+  transition: all 0.3s var(--ease-out-cubic) !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.pack-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transition: left 0.5s ease;
+  z-index: 1;
+}
+
+.pack-card:hover {
+  transform: translateY(-8px) scale(1.02) !important;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2) !important;
+  background-color: var(--color-background-hover) !important;
+}
+
+.pack-card:hover::before {
+  left: 100%;
+}
+
+.pack-card:active {
+  transform: translateY(-4px) scale(1.01) !important;
+}
+
+/* Level item hover animations */
+.level-item {
+  transition: all 0.3s var(--ease-out-cubic) !important;
+  position: relative;
+}
+
+.level-item:hover {
+  transform: translateX(10px) scale(1.01) !important;
+  background-color: var(--color-background-hover) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+.level-item .level-number {
+  transition: all 0.3s var(--ease-out-cubic);
+}
+
+.level-item:hover .level-number {
+  transform: scale(1.1);
+  color: var(--color-primary-hover);
+}
+
+/* User badge hover animations */
+.user-badge {
+  transition: all 0.3s var(--ease-out-cubic) !important;
+  position: relative;
+}
+
+.user-badge:hover {
+  transform: translateY(-3px) scale(1.05) !important;
+  background-color: var(--color-primary-hover) !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.user-badge:active {
+  transform: translateY(-1px) scale(1.02) !important;
+}
+
+/* Pack details animations */
+.pack-details {
+  animation: slideInRight 0.4s var(--ease-out-cubic);
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Pack info section animations */
+.pack-info > * {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s var(--ease-out-cubic) forwards;
+}
+
+.pack-info > *:nth-child(1) { animation-delay: 0.1s; }
+.pack-info > *:nth-child(2) { animation-delay: 0.2s; }
+.pack-info > *:nth-child(3) { animation-delay: 0.3s; }
+.pack-info > *:nth-child(4) { animation-delay: 0.4s; }
+.pack-info > *:nth-child(5) { animation-delay: 0.5s; }
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Levels list staggered animation */
+.levels-list .level-item {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slideInLeft 0.4s var(--ease-out-cubic) forwards;
+}
+
+.levels-list .level-item:nth-child(1) { animation-delay: 0.1s; }
+.levels-list .level-item:nth-child(2) { animation-delay: 0.15s; }
+.levels-list .level-item:nth-child(3) { animation-delay: 0.2s; }
+.levels-list .level-item:nth-child(4) { animation-delay: 0.25s; }
+.levels-list .level-item:nth-child(5) { animation-delay: 0.3s; }
+.levels-list .level-item:nth-child(6) { animation-delay: 0.35s; }
+.levels-list .level-item:nth-child(7) { animation-delay: 0.4s; }
+.levels-list .level-item:nth-child(8) { animation-delay: 0.45s; }
+.levels-list .level-item:nth-child(9) { animation-delay: 0.5s; }
+.levels-list .level-item:nth-child(10) { animation-delay: 0.55s; }
+
+/* Completed users animation */
+.completed-users .user-badge {
+  opacity: 0;
+  transform: scale(0.8);
+  animation: popIn 0.4s var(--ease-spring) forwards;
+}
+
+.completed-users .user-badge:nth-child(1) { animation-delay: 0.1s; }
+.completed-users .user-badge:nth-child(2) { animation-delay: 0.15s; }
+.completed-users .user-badge:nth-child(3) { animation-delay: 0.2s; }
+.completed-users .user-badge:nth-child(4) { animation-delay: 0.25s; }
+.completed-users .user-badge:nth-child(5) { animation-delay: 0.3s; }
+
+@keyframes popIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Progress bar animations */
+.progress-bar {
+  transition: width 0.8s var(--ease-out-quart);
+}
+
+/* Checkbox animations */
+input[type="checkbox"] {
+  transition: all 0.2s var(--ease-out-cubic);
+}
+
+input[type="checkbox"]:checked {
+  animation: checkboxPop 0.3s var(--ease-spring);
+}
+
+@keyframes checkboxPop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+/* Micro-interactions */
+.clickable {
+  transition: transform 0.1s var(--ease-out-cubic);
+}
+
+.clickable:active {
+  transform: scale(0.98);
+}
+
+/* Dark mode transition */
+* {
+  transition: background-color 0.3s var(--ease-out-cubic), color 0.3s var(--ease-out-cubic), border-color 0.3s var(--ease-out-cubic);
+}

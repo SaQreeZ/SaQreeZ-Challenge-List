@@ -6,6 +6,12 @@ export function getYoutubeIdFromUrl(url) {
 }
 
 export function embed(video) {
+    // Check if it's a Medal.tv URL
+    if (video.includes('medal.tv')) {
+        const clipId = getMedalIdFromUrl(video);
+        return clipId ? embedMedal(clipId) : video;
+    }
+    // Default to YouTube
     return `https://www.youtube.com/embed/${getYoutubeIdFromUrl(video)}`;
 }
 
@@ -15,6 +21,25 @@ export function localize(num) {
 
 export function getThumbnailFromId(id) {
     return `https://img.youtube.com/vi/${id}/mqdefault.jpg`;
+}
+
+// Medal.tv URL parsing - extracts clipId from Medal.tv URLs
+export function getMedalIdFromUrl(url) {
+    const match = url.match(/medal\.tv\/clip\/([^/]+)/);
+    return match ? match[1] : '';
+}
+
+// Generate Medal.tv embed URL
+export function embedMedal(clipId) {
+    return `https://medal.tv/clip/${clipId}?embed=true`;
+}
+
+// Medal.tv thumbnail handling (Medal.tv doesn't provide direct thumbnail URLs like YouTube)
+// Returns a placeholder or attempts to use Medal.tv's preview system
+export function getMedalThumbnailFromId(clipId) {
+    // Medal.tv doesn't have a direct thumbnail API like YouTube
+    // We'll return a placeholder or the clip URL itself for now
+    return `https://medal.tv/clip/${clipId}`;
 }
 
 // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array

@@ -35,17 +35,15 @@ export default {
                         >
                     </div>
                     <table class="board">
-                        <tr v-for="(ientry, i) in filteredLeaderboard" :key="i">
+                        <tr v-for="(ientry, i) in filteredLeaderboard" :key="i" @click="selected = getOriginalIndex(i)" class="clickable-row" :class="{ 'active': selected == getOriginalIndex(i) }">
                             <td class="rank">
                                 <p class="type-label-lg">#{{ getOriginalIndex(i) + 1 }}</p>
                             </td>
                             <td class="total">
                                 <p class="type-label-lg">{{ localize(ientry.total) }}</p>
                             </td>
-                            <td class="user" :class="{ 'active': selected == i }">
-                                <button @click="selected = getOriginalIndex(i)">
-                                    <span class="type-label-lg">{{ ientry.user }}</span>
-                                </button>
+                            <td class="user">
+                                <span class="type-label-lg">{{ ientry.user }}</span>
                             </td>
                         </tr>
                     </table>
