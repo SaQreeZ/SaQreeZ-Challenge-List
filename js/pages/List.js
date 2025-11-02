@@ -33,7 +33,7 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in filteredList" :key="i" @click="selected = getOriginalIndex(i)" class="clickable-row" :class="{ 'active': selected == getOriginalIndex(i), 'error': !level }">
                         <td class="rank">
-                            <p v-if="getOriginalIndex(i) + 1 <= 100" class="type-label-lg">#{{ getOriginalIndex(i) + 1 }}</p>
+                            <p v-if="getOriginalIndex(i) + 1 <= 150" class="type-label-lg">#{{ getOriginalIndex(i) + 1 }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
                         <td class="level">
@@ -86,9 +86,9 @@ export default {
 
                     </div>
                     <h2>Records</h2>
-                    <p v-if="selected + 1 <= 50"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected +1 <= 100"><strong>{{ level.percentToQualify}}%</strong> or better to qualify</p>
-                    <p v-else><strong>100%</strong> to qualify (no points)</p>
+                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
+                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>
+                    <p v-else>This level does not accept new records.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
@@ -154,13 +154,13 @@ export default {
                         Do not use easy modes, only completion of an original level counts.
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List, we still accept records although, you won't get any points.
-                    </p>
-                    <p>
-                        You can submit the level even if its to easy to be in the main list.
+                        Once a level falls onto the Legacy List, we dont accept records anymore.
                     </p>
                     <p>
                         No copying levels (Needs SaQreeZ's "Yes").
+                    </p>
+                    <p>
+                        Level has to be made with at least a little bit of effort, like deco or gameplay.
                     </p>
                 </div>
             </div>
