@@ -10,5 +10,11 @@
     "enjoyment": "7/10",
     "description": "I think 2nd half is kinda harder than the first half, but overall it's a fun level. Enjoy weightless!",
     "records": [
+        {
+            "user": "qnet309",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

@@ -10,5 +10,11 @@
     "enjoyment": "5.5/10",
     "description": "Attempt farm. Hard beggining, easy middle, mid-hard end.",
     "records": [
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }
