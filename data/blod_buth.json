@@ -1,0 +1,20 @@
+{
+    "id": 116174719,
+    "name": "blod buth",
+    "author": "tublerGDv3",
+    "creators": ["tublerGD"],
+    "verifier": "tublerGD",
+    "verification": "link",
+    "percentToQualify": 66,
+    "password": "None",
+    "enjoyment": "1/10",
+    "description": "Bloodbath short challenge",
+    "records": [
+        {
+            "user": "SaQreeZ",
+            "link": "link",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
