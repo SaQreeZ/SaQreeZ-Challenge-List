@@ -10,6 +10,11 @@
     "enjoyment": "4.5/10",
     "description": "Fast paced mini wave challenge where you almost can't see no shit.",
     "records": [
-
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
