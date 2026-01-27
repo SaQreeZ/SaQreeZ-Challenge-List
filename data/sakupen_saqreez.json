@@ -7,7 +7,7 @@
     "verification": "https://youtu.be/prpMA8xxEPA",
     "percentToQualify": 50,
     "password": "None",
-    "enjoyment": "4/10",
+    "enjoyment": "3.5/10",
     "description": "Slow and easy sakupen circles level.",
     "records": [
         {
@@ -27,6 +27,12 @@
             "link": "link",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "LatanisGD",
+            "link": "link",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }
