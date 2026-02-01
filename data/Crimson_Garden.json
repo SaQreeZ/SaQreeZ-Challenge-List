@@ -10,5 +10,11 @@
     "enjoyment": "5/10",
     "description": "I love it when someone makes a new top 1 and it actually looks good. Thanks.",
     "records": [
+        {
+            "user": "Adazik",
+            "link": "https://medal.tv/pl/games/geometry-dash/clips/m1WkgITdXFlkTu7Zv?invite=cr-MSxYeFcsMzg3OTk0OTQ0&v=28",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
