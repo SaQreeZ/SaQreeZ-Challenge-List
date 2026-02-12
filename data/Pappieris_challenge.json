@@ -10,6 +10,11 @@
     "enjoyment": "5/10",
     "description": "deorum ship orbit",
     "records": [
-
+        {
+            "user": "MaybeGurt",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

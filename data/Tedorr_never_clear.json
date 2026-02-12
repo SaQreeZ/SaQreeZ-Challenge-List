@@ -10,5 +10,11 @@
     "enjoyment": "4/10",
     "description": "Dark like inside of Tedorr's booty. Good luck clearing it :)",
     "records": [
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

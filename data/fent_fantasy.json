@@ -15,6 +15,18 @@
             "link": "link",
             "percent": 100,
             "hz": 30
+        },
+        {
+            "user": "Specie",
+            "link": "link",
+            "percent": 100,
+            "hz": 30
+        },
+        {
+            "user": "Wojasek",
+            "link": "link",
+            "percent": 100,
+            "hz": 30
         }
     ]
 }
