@@ -10,5 +10,11 @@
     "enjoyment": "2.5/10",
     "description": "Oh my days, the polish krokiet.",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://www.youtube.com/watch?v=snLCg1x6vWk",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
