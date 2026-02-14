@@ -74,10 +74,6 @@ export default {
 
                     <div class="stats">
                     <li>
-                        <div class="type-title-sm">Enjoyment</div>
-                        <p>{{ level.enjoyment || 'No rating provided.' }}</p>
-                    </li>
-                    <li>
                         <div class="type-title-sm">Description</div>
                         <p>
                             {{ level.description || 'No description provided.' }}
