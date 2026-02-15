@@ -1,0 +1,21 @@
+{
+    "id": 123094124,
+    "name": "Zbyslaw pierdzibak",
+    "author": "Lemniks",
+    "creators": ["Lemniks"],
+    "verifier": "Lemniks",
+    "verification": "https://youtu.be/MO4_7hXk5qU?si=4jslIys8XvzNu0ze",
+    "percentToQualify": 50,
+    "password": "None",
+    "enjoyment": "1/10",
+    "description": "Fuck the last click",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "link",
+            "percent": 100,
+            "mobile": 1,
+            "hz": 60
+        }
+    ]
+}
