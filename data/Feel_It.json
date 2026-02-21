@@ -10,6 +10,11 @@
     "enjoyment": "8/10",
     "description": "NONG: d4vd - Feel It. Good level, good flow, good luck :3",
     "records": [
-
+        {
+            "user": "gopsolaptop",
+            "link": "https://www.youtube.com/watch?v=mY3QsbSAnss",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

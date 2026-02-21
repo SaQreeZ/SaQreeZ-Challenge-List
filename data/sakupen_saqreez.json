@@ -39,6 +39,12 @@
             "link": "https://youtu.be/DoO3wLYXmAI?si=j9CZmQnTe31MKn1C",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Wojasek",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
         }
     ]
 }

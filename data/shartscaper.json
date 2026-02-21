@@ -10,5 +10,11 @@
     "enjoyment": "2/10",
     "description": "Hard robot challenge inspired with Nullscapes and Shardscapes. It's dark.",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://www.youtube.com/watch?v=mY3QsbSAnss",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
