@@ -10,5 +10,12 @@
     "enjoyment": "8/10",
     "description": "tublerGD actually impressed me here O_O",
     "records": [
+        {
+            "user": "Fuffiarz",
+            "link": "link",
+            "percent": 100,
+            "mobile": 1,
+            "hz": 60
+        }
     ]
 }
