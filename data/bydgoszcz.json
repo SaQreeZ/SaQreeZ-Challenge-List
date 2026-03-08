@@ -1,0 +1,20 @@
+{
+    "id": 89259736,
+    "name": "bydgoszcz",
+    "author": "Cinasek",
+    "creators": ["Cinasek"],
+    "verifier": "Cinasek",
+    "verification": "https://youtu.be/snLCg1x6vWk?is=8uzr8k1CdEtKhlLi",
+    "percentToQualify": 35,
+    "password": "None",
+    "enjoyment": "4/10",
+    "description": "Necropolis, but unbalancel (The original one isnt balanced as well).",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/snLCg1x6vWk?is=8uzr8k1CdEtKhlLi",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
