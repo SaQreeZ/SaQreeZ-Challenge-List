@@ -196,7 +196,7 @@ export default {
                 list.push(...fullListMapped.slice(76, 150));
             };
             if (this.useOther) {
-                list.push(...fullListMapped.slice(151, fullListMapped.length));
+                list.push(...fullListMapped.slice(151, 999999));
             }
 
             // random 100 levels
