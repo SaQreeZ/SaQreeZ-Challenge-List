@@ -33,8 +33,7 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in filteredList" :key="i" @click="selected = getOriginalIndex(i)" class="clickable-row" :class="{ 'active': selected == getOriginalIndex(i), 'error': !level }">
                         <td class="rank">
-                            <p v-if="getOriginalIndex(i) + 1 <= 150" class="type-label-lg">#{{ getOriginalIndex(i) + 1 }}</p>
-                            <p v-else class="type-label-lg">Legacy</p>
+                            <p class="type-label-lg">#{{ getOriginalIndex(i) + 1 }}</p>
                         </td>
                         <td class="level">
                             <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
@@ -82,9 +81,8 @@ export default {
 
                     </div>
                     <h2>Records</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>
-                    <p v-else>This level does not accept new records.</p>
+                    <p v-if="selected + 1 <= 150"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
+                    <p v-else><strong>100%</strong> or better to qualify</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
@@ -148,9 +146,6 @@ export default {
                     </p>
                     <p>
                         Do not use easy modes, only completion of an original level counts.
-                    </p>
-                    <p>
-                        Once a level falls onto the Legacy List, we dont accept records anymore.
                     </p>
                     <p>
                         No copying levels (Needs SaQreeZ's "Yes").

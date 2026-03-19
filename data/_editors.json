@@ -15,6 +15,16 @@
         "link": "link"
     },
     {
+        "role": "helper",
+        "name": "MaybeGurt",
+        "link": "link"
+    },
+    {
+        "role": "helper",
+        "name": "Wojasek",
+        "link": "link"
+    },
+    {
         "role": "dev",
         "name": "SaQreeZ",
         "link": "link"

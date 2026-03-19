@@ -1,45 +1,57 @@
+import data from '../data/_list.json' assert { type: 'json' };
+
 /**
  * Numbers of decimal digits to round to
  */
 const scale = 3;
 
 /**
- * Calculate the score awarded when having a certain percentage on a list level
- * @param {Number} rank Position on the list
- * @param {Number} percent Percentage of completion
- * @param {Number} minPercent Minimum percentage required
- * @returns {Number}
+ * Oblicza punkty na podstawie rankingu z pliku JSON
  */
 export function score(rank, percent, minPercent) {
-    if (rank > 150) {
+    // Konwertujemy wejścia na liczby, na wypadek gdyby przyszły jako stringi
+    const r = Number(rank);
+    const p = Number(percent);
+    const mp = Number(minPercent);
+
+    // 1. Sprawdzamy czy gracz osiągnął wymagany procent
+    if (r > 0 && p < mp) {
         return 0;
     }
-    if (rank > 75 && percent < 100) {
-        return 0;
+
+    // 2. Pobieramy długość listy z JSONa
+    const maxRank = data.length + 1;
+
+    // Zabezpieczenie na wypadek pustej listy lub błędu wczytywania
+    if (!maxRank || maxRank === 0) return 0;
+    
+    // Jeśli jest tylko jeden poziom, dajemy 500 pkt
+    if (maxRank === 1) return (r === 1) ? 500 : 0;
+
+    const exponent = 2.8;
+
+    // 3. Obliczamy bazę (nieliniowo)
+    // Pilnujemy, żeby rank nie wyszedł poza zakres 1 - maxRank
+    const safeRank = Math.max(1, Math.min(r, maxRank));
+    const normalizedRank = (safeRank - 1) / (maxRank - 1);
+    
+    // Wzór: 500 na początku, 1 na końcu, spadek potęgowy
+    const baseScore = 1 + (500 - 1) * Math.pow(1 - normalizedRank, exponent);
+
+    // 4. Mnożnik procentowy (skalowanie progresu)
+    const percentMultiplier = (p - (mp - 1)) / (100 - (mp - 1));
+    let finalScore = baseScore * percentMultiplier;
+
+    // 5. Kara za brak 100% (odejmujemy 1/3)
+    if (p !== 100) {
+        return round(finalScore * (2 / 3)); 
     }
-    if (rank > 0 && percent < minPercent) {
-        return 0;
-    }
 
-    // Old formula
-    /*
-    let score = (100 / Math.sqrt((rank - 1) / 50 + 0.444444) - 50) *
-        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
-    */
-    // New formula
-    let score = (-31.7536*Math.pow(rank-1, 0.4) + 250) *
-        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
-
-    score = Math.max(0, score);
-
-    if (percent != 100) {
-        return round(score - score / 3);
-    }
-
-    return Math.max(round(score), 0);
+    return Math.max(round(finalScore), 0);
 }
 
 export function round(num) {
+    if (isNaN(num)) return 0;
     if (!('' + num).includes('e')) {
         return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
     } else {
