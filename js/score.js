@@ -1,4 +1,4 @@
-import data from '../data/_list.json' assert { type: 'json' };
+import data from '../data/_list.json' with { type: 'json' };
 
 /**
  * Numbers of decimal digits to round to
