@@ -10,5 +10,11 @@
     "enjoyment": "7/10",
     "description": "Mother Dear, one day I'm going to turn this world upside down.",
     "records": [
+        {
+            "user": "MaybeGurt",
+            "link": "https://youtu.be/FreyOREaMsg",
+            "percent": 67,
+            "hz": 480
+        }
     ]
 }
