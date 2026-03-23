@@ -5,6 +5,11 @@
         "link": "link"
     },
     {
+        "role": "admin",
+        "name": "gopsolaptop",
+        "link": "link"
+    },
+    {
         "role": "helper",
         "name": "YoungSzxmus",
         "link": "link"
@@ -22,11 +27,6 @@
     {
         "role": "helper",
         "name": "Wojasek",
-        "link": "link"
-    },
-    {
-        "role": "helper",
-        "name": "gopsolaptop",
         "link": "link"
     },
     {
