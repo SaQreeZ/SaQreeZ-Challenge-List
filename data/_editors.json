@@ -25,6 +25,11 @@
         "link": "link"
     },
     {
+        "role": "helper",
+        "name": "gopsolaptop",
+        "link": "link"
+    },
+    {
         "role": "dev",
         "name": "SaQreeZ",
         "link": "link"
