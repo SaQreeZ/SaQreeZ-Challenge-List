@@ -10,5 +10,11 @@
     "enjoyment": "4/10",
     "description": "No comments.",
     "records": [
+         {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/JMQNDPfsL6w?t=144",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

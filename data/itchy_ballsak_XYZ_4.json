@@ -10,5 +10,11 @@
     "enjoyment": "0/10",
     "description": "What was Cinasek thinking while creating this is a mystery.",
     "records": [
+         {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/JMQNDPfsL6w?t=199",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
