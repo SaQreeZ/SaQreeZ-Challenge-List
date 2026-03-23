@@ -10,5 +10,11 @@
     "enjoyment": "6.5/10",
     "description": "Goat python. Looks like Supersonic x ToE 2.",
     "records": [
+         {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/JMQNDPfsL6w?t=165",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
