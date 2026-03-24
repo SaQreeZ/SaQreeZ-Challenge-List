@@ -1,0 +1,20 @@
+{
+    "id": 89475607,
+    "name": "Benia Dance",
+    "author": "PanPingwinek",
+    "creators": ["PanPingwinek"],
+    "verifier": "Cinasek",
+    "verification": "https://youtu.be/p3xgsUBaU9s?t=284",
+    "percentToQualify": 42,
+    "password": "None",
+    "enjoyment": "8/10",
+    "description": "Jawbreaker in it's prime",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/iC4L-oYitpU?t=165",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
