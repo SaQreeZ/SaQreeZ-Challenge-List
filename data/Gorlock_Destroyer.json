@@ -10,5 +10,11 @@
     "enjoyment": "4/10",
     "description": "Way harder than it looks ship chall, kinda similair to the 1st untitled unmastered ship",
     "records": [
+         {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/aZLIfqTyxXI?t=59",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
