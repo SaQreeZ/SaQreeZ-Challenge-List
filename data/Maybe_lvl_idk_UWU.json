@@ -27,6 +27,12 @@
             "link": "link",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Lemniks",
+            "link": "https://youtu.be/5qfBz0Xh3c8?t=122",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }

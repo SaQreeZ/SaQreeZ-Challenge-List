@@ -1,0 +1,20 @@
+{
+    "id": 82478559,
+    "name": "Wjezdzam na beat",
+    "author": "Mixer",
+    "creators": ["Mixer"],
+    "verifier": "Mixer",
+    "verification": "https://youtu.be/VgbQpP0Nli8",
+    "percentToQualify": 57,
+    "password": "None",
+    "enjoyment": "6.5/10",
+    "description": "No corner blocks, Eww. Waboo tutorial ahh level.",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/wd1h3CdDRG4",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

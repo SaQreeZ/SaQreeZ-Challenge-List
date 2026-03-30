@@ -33,6 +33,12 @@
             "link": "link",
             "percent": 100,
             "hz": 480
+        },
+        {
+            "user": "Cinasek",
+            "link": "https://youtu.be/_FYUPlNh4pY?t=174",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
