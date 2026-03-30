@@ -1,0 +1,20 @@
+{
+    "id": 123094124,
+    "name": "Butle z gazem",
+    "author": "Lemniks",
+    "creators": ["Lemniks"],
+    "verifier": "Lemniks",
+    "verification": "https://youtu.be/S-Y8BKt_HdE",
+    "percentToQualify": 46,
+    "password": "None",
+    "enjoyment": "5/10",
+    "description": "Cool level ruined by chokepoints. Exasperation inspired, feels illegal.",
+    "records": [
+         {
+            "user": "gopsolaptop",
+            "link": "https://www.youtube.com/watch?v=aZLIfqTyxXI",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
