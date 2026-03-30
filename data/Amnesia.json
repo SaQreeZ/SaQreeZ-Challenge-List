@@ -3,19 +3,13 @@
     "name": "Amnesia",
     "author": "SaQreeZ",
     "creators": ["SaQreeZ"],
-    "verifier": "YoungSzxmus",
+    "verifier": "kubusszn",
     "verification": "https://youtu.be/kD86sBNhEBA",
     "percentToQualify": 34,
     "password": "None",
     "enjoyment": "7.5/10",
     "description": "Oblivion inspired level, but it's kinda 'cheap' and less claustrophobic.",
     "records": [
-        {
-            "user": "kubusszn",
-            "link": "link",
-            "percent": 100,
-            "hz": 240
-        },
         {
             "user": "LatanisGD",
             "link": "link",
