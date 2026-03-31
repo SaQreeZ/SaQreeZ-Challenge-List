@@ -10,5 +10,11 @@
     "enjoyment": "10/10",
     "description": "Stupidly good looking UNKNOWN inspired challenge",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/jsp5Bh6_lTk?t=52",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
