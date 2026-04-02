@@ -10,5 +10,11 @@
     "enjoyment": "8/10",
     "description": "Old challenge with a cool song",
     "records": [
+        {
+            "user": "LatanisGD",
+            "link": "link",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }

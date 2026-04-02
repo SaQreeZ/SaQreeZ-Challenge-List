@@ -10,5 +10,11 @@
     "enjoyment": "10/10",
     "description": "Easy fun wave challenge, Forsaken Neon inspired gameplay",
     "records": [
+        {
+            "user": "LatanisGD",
+            "link": "link",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }

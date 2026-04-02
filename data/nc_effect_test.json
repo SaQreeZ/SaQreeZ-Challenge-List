@@ -10,5 +10,11 @@
     "enjoyment": "7/10",
     "description": "Free nc thing",
     "records": [
+        {
+            "user": "LatanisGD",
+            "link": "link",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }

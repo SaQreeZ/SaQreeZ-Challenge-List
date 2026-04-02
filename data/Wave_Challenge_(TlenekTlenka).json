@@ -10,5 +10,11 @@
     "enjoyment": "9/10",
     "description": "Fun wave challenge with funny last click",
     "records": [
+        {
+            "user": "LatanisGD",
+            "link": "link",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
