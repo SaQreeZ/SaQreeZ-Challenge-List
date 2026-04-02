@@ -10,5 +10,11 @@
     "enjoyment": "0/10",
     "description": "random fuckass gameplay",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/jsp5Bh6_lTk?t=123",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
