@@ -1,0 +1,20 @@
+{
+    "id": 137181935,
+    "name": "Bezrobocie chall",
+    "author": "tedorr",
+    "creators": ["tedorr"],
+    "verifier": "tedorr",
+    "verification": "https://youtu.be/0RFUQ_H7w7c",
+    "percentToQualify": 57,
+    "password": "None",
+    "enjoyment": "5/10",
+    "description": "wave consistency and weird ending",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/BTCD1FUVo50?t=41",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
