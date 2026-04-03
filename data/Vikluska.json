@@ -10,5 +10,11 @@
     "enjoyment": "5/10",
     "description": "Firework inspired and nothing like Firework simultaneously. Also pretty buggy",
     "records": [
+        {
+            "user": "LatanisGD",
+            "link": "link",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }

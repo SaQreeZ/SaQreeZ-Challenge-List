@@ -10,5 +10,11 @@
     "enjoyment": "4/10",
     "description": "Old Tride challenge with stupid chokepoints",
     "records": [
+        {
+            "user": "LatanisGD",
+            "link": "link",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }

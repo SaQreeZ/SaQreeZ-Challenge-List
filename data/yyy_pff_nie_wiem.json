@@ -10,5 +10,11 @@
     "enjoyment": "8/10",
     "description": "Top 10 best name on the list",
     "records": [
+        {
+            "user": "LatanisGD",
+            "link": "link",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }

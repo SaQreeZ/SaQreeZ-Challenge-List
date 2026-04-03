@@ -10,5 +10,11 @@
     "enjoyment": "6/10",
     "description": "Old, bad and free lol",
     "records": [
+        {
+            "user": "LatanisGD",
+            "link": "link",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
