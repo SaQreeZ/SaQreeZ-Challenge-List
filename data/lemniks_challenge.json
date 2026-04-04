@@ -1,0 +1,20 @@
+{
+    "id": 130177461,
+    "name": "lemniks challenge",
+    "author": "gopsolaptop",
+    "creators": ["gopsolaptop"],
+    "verifier": "gopsolaptop",
+    "verification": "https://www.youtube.com/watch?v=BTCD1FUVo50",
+    "percentToQualify": 38,
+    "password": "None",
+    "enjoyment": "6/10",
+    "description": "funni challenge with ploink song",
+    "records": [
+        {
+            "user": "Lemniks",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

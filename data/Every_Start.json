@@ -51,6 +51,12 @@
             "link": "link",
             "percent": 100,
             "hz": 480
+        },
+        {
+            "user": "Jarmuz",
+            "link": "link",
+            "percent": 82,
+            "hz": 240
         }
     ]
 }

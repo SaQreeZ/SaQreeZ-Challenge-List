@@ -10,5 +10,11 @@
     "enjoyment": "9/10",
     "description": "Fader 2020 demon",
     "records": [
+        {
+            "user": "Lemniks",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

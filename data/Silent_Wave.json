@@ -10,5 +10,11 @@
     "enjoyment": "8/10",
     "description": "3 hard clicks lol",
     "records": [
+        {
+            "user": "Cinasek",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
