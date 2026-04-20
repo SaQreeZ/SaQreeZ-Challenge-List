@@ -10,5 +10,11 @@
     "enjoyment": "7/10",
     "description": "Funni ending",
     "records": [
+        {
+            "user": "Cinasek",
+            "link": "https://youtu.be/m2Q8wQf1J2M?t=131",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }

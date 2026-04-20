@@ -21,6 +21,12 @@
             "link": "link",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Jarmuz",
+            "link": "https://www.youtube.com/watch?v=Pfdcb3DLM-s",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }

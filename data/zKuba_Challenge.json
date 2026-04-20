@@ -10,5 +10,11 @@
     "enjoyment": "6/10",
     "description": "Black Blizzard inspired, goofy 'deco', old af",
     "records": [
+        {
+            "user": "Cinasek",
+            "link": "https://youtu.be/m2Q8wQf1J2M?t=195",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }
