@@ -10,5 +10,11 @@
     "enjoyment": "4/10",
     "description": "od kiedy jestem szipem fuc,",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://www.youtube.com/watch?v=MACfW8b8zVE",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

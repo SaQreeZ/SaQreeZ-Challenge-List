@@ -10,5 +10,11 @@
     "enjoyment": "6/10",
     "description": "Funky old challenge, featuring a stupid ufo at 60%",
     "records": [
+        {
+            "user": "Cinasek",
+            "link": "https://youtu.be/m2Q8wQf1J2M?t=414",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }

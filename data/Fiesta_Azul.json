@@ -69,6 +69,18 @@
             "link": "https://www.youtube.com/watch?v=snLCg1x6vWk",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Jarmuz",
+            "link": "https://youtu.be/Pfdcb3DLM-s?t=130",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Cinasek",
+            "link": "https://youtu.be/m2Q8wQf1J2M?t=368",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
