@@ -1,0 +1,20 @@
+{
+    "id": 139999988,
+    "name": "Desmos",
+    "author": "SaQreeZ",
+    "creators": ["SaQreeZ"],
+    "verifier": "SaQreeZ",
+    "verification": "https://youtu.be/JCMKjmM974Q",
+    "percentToQualify": 56,
+    "password": "None",
+    "enjoyment": "5/10",
+    "description": "Bad Deimos remake with fixed hitboxes everywhere. SaQreeZ is on a villain arc with these hitboxes man",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/tk9MVoKgH9U?t=31",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
