@@ -1,0 +1,20 @@
+{
+    "id": 138998500,
+    "name": "Penetration",
+    "author": "SaQreeZ",
+    "creators": ["SaQreeZ"],
+    "verifier": "SaQreeZ",
+    "verification": "https://youtu.be/zXqxJF5OsiA",
+    "percentToQualify": 48,
+    "password": "None",
+    "enjoyment": "5/10",
+    "description": "Penumbral but with corner pieces",
+    "records": [
+        {
+            "user": "Kolib24",
+            "link": "https://youtu.be/GayM1xeTTZk",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
