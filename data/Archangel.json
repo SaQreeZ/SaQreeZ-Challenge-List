@@ -10,5 +10,11 @@
     "enjoyment": "7/10",
     "description": "Claustrophobic slow wave top 1 verified by Gopso.",
     "records": [
+        {
+            "user": "Kolib24",
+            "link": "link",
+            "percent": 60,
+            "hz": 240
+        }
     ]
 }

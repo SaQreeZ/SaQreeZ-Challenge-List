@@ -10,5 +10,17 @@
     "enjoyment": "8/10",
     "description": "Funny but actually not bad to play challenge",
     "records": [
+        {
+            "user": "LatanisGD",
+            "link": "https://medal.tv/games/geometry-dash/clips/mr8d9BA2Z8nk5yEcj?invite=cr-MSxVVXAsMjQyNzMzODky&v=47",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Cinasek",
+            "link": "https://youtu.be/m2Q8wQf1J2M?si=0aCYTkLfhUkHZyDu&t=347",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }

@@ -10,5 +10,11 @@
     "enjoyment": "5/10",
     "description": "Formosa inspired challenge with invinsible spikes. Not that fun.",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/sDOPtXUbyIQ?t=64",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
