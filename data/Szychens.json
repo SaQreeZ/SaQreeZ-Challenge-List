@@ -1,0 +1,32 @@
+{
+    "id": 137251051,
+    "name": "Szychens",
+    "author": "Lemniks",
+    "creators": ["Lemniks"],
+    "verifier": "Sxynzoo",
+    "verification": "https://youtu.be/ylsJ21XvkVY",
+    "percentToQualify": 60,
+    "password": "None",
+    "enjoyment": "10/10",
+    "description": "Cool chalgne",
+    "records": [
+        {
+            "user": "Lemniks",
+            "link": "https://youtu.be/1PslMm-cWQU",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Kolib24",
+            "link": "https://youtu.be/Grgf2unYOi0?t=35",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/GT6Mcn9nZuM?t=241",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

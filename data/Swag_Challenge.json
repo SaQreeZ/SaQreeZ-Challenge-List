@@ -4,11 +4,17 @@
     "author": "gopsolaptop",
     "creators": ["gopsolaptop"],
     "verifier": "gopsolaptop",
-    "verification": "https://youtu.be/8hKyzVi6goI?t=423",
+    "verification": "https://youtu.be/BTCD1FUVo50?t=63",
     "percentToQualify": 99,
     "password": "None",
     "enjoyment": "6/10",
     "description": "Funni challenge made for Swag Route (secret way clone). List% is from the robot btw",
     "records": [
+        {
+            "user": "Lemniks",
+            "link": "https://youtu.be/XymqvK1RveY?t=431",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

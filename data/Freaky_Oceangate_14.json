@@ -1,0 +1,26 @@
+{
+    "id": 113528650,
+    "name": "Freaky Oceangate 14",
+    "author": "Kolib24",
+    "creators": ["Kolib24"],
+    "verifier": "Kolib24",
+    "verification": "https://youtu.be/LNPs2rF1adA",
+    "percentToQualify": 100,
+    "password": "None",
+    "enjoyment": "8/10",
+    "description": "Fun and kolib in the same screenshot??? Wtf???",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/GT6Mcn9nZuM?t=193",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Lemniks",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

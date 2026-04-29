@@ -1,0 +1,26 @@
+{
+    "id": 137866147,
+    "name": "zelki",
+    "author": "dzuloo",
+    "creators": ["dzuloo"],
+    "verifier": "dzuloo",
+    "verification": "https://medal.tv/games/geometry-dash/clips/mu2551MOOhbaNDSjI/spok?invite=cr-MSxFeUwsNDE2OTY3NjQ4LA",
+    "percentToQualify": 58,
+    "password": "None",
+    "enjoyment": "0/10",
+    "description": "Spamslop, but at least doable without alt spam.",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/GT6Mcn9nZuM?t=152",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "tedorr",
+            "link": "https://youtu.be/9vsUoau5KXo",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

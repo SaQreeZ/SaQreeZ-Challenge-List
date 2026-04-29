@@ -1,0 +1,20 @@
+{
+    "id": 138202168,
+    "name": "Xy76",
+    "author": "Mixer",
+    "creators": ["Mixer"],
+    "verifier": "Mixer",
+    "verification": "https://youtu.be/7XeF9ZzZ1y8",
+    "percentToQualify": 60,
+    "password": "None",
+    "enjoyment": "6.5/10",
+    "description": "Weird to learn, but fun after that.",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/GT6Mcn9nZuM?t=202",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

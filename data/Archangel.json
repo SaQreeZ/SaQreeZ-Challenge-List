@@ -5,10 +5,16 @@
     "creators": ["SternP0TAT0"],
     "verifier": "gopsolaptop",
     "verification": "https://youtu.be/JLZOIPHGp6c?si=UtK0ln7Xc5YjpGo6",
-    "percentToQualify": 35,
+    "percentToQualify": 48,
     "password": "None",
     "enjoyment": "7/10",
     "description": "Claustrophobic slow wave top 1 verified by Gopso.",
     "records": [
+        {
+            "user": "Kolib24",
+            "link": "link",
+            "percent": 91,
+            "hz": 240
+        }
     ]
 }
