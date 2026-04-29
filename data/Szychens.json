@@ -1,0 +1,20 @@
+{
+    "id": 137251051,
+    "name": "Szychens",
+    "author": "Lemniks",
+    "creators": ["Lemniks"],
+    "verifier": "Sxynzoo",
+    "verification": "https://youtu.be/ylsJ21XvkVY",
+    "percentToQualify": 60,
+    "password": "None",
+    "enjoyment": "10/10",
+    "description": "Cool chalgne",
+    "records": [
+        {
+            "user": "Lemniks",
+            "link": "https://youtu.be/1PslMm-cWQU",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
