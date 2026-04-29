@@ -10,5 +10,17 @@
     "enjoyment": "10/10",
     "description": "Funni pandemonium dmeon, actually fun.",
     "records": [
+        {
+            "user": "Kolib24",
+            "link": "https://youtu.be/GayM1xeTTZk?t=16",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/GT6Mcn9nZuM?t=93",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

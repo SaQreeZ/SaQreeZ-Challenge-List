@@ -10,5 +10,11 @@
     "enjoyment": "6/10",
     "description": "Through the decay inspired challenge",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/GT6Mcn9nZuM?t=173",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

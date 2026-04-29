@@ -10,5 +10,11 @@
     "enjoyment": "6/10",
     "description": "Funni challenge made for Swag Route (secret way clone). List% is from the robot btw",
     "records": [
+        {
+            "user": "Lemniks",
+            "link": "https://youtu.be/XymqvK1RveY?t=431",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

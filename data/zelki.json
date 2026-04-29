@@ -10,5 +10,17 @@
     "enjoyment": "0/10",
     "description": "Spamslop, but at least doable without alt spam.",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/GT6Mcn9nZuM?t=152",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "tedorr",
+            "link": "https://youtu.be/9vsUoau5KXo",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
