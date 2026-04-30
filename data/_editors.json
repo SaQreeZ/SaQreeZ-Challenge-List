@@ -10,18 +10,18 @@
         "link": "link"
     },
     {
-        "role": "helper",
-        "name": "kubusszn",
-        "link": "link"
-    },
-    {
-        "role": "helper",
+        "role": "admin",
         "name": "MaybeGurt",
         "link": "link"
     },
     {
-        "role": "helper",
+        "role": "admin",
         "name": "YoungSzxmus",
+        "link": "link"
+    },
+    {
+        "role": "helper",
+        "name": "kubusszn",
         "link": "link"
     },
     {
