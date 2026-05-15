@@ -1,0 +1,20 @@
+{
+    "id": 89274016,
+    "name": "ZylakiNaDupie",
+    "author": "BartoszGD",
+    "creators": ["BartoszGD"],
+    "verifier": "BartoszGD",
+    "verification": "https://youtu.be/hkvqwOtjR7M",
+    "percentToQualify": 66,
+    "password": "None",
+    "enjoyment": "10/10",
+    "description": "biedna dupa.",
+    "records": [
+        {
+            "user": "Kolib24",
+            "link": "https://youtu.be/6ff1Cz1XB-k?si=fK1Z0WbxK5b48BR9",
+            "percent": 100,
+            "hz": 300
+        }
+    ]
+}
