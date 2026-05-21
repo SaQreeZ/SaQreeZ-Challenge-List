@@ -93,6 +93,12 @@
             "link": "https://www.youtube.com/watch?v=5qfBz0Xh3c8",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "BartoszGD",
+            "link": "link",
+            "percent": 100,
+            "hz": 420
         }
     ]
 }
