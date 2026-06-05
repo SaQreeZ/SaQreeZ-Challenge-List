@@ -1,0 +1,20 @@
+{
+    "id": 127477815,
+    "name": "Nhelv Bandy Kuboiksa",
+    "author": "Cinasek",
+    "creators": ["Cinasek"],
+    "verifier": "Cinasek",
+    "verification": "https://youtu.be/7sXJGi8s-3I?si=yKAYdACrREplPy5p&t=96",
+    "percentToQualify": 52,
+    "password": "None",
+    "enjoyment": "0/10",
+    "description": "Least working level on SDL",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://www.youtube.com/watch?v=fcLTdlbJglw",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
