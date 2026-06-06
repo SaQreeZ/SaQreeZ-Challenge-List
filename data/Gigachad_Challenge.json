@@ -1,0 +1,20 @@
+{
+    "id": 85061117,
+    "name": "Gigachad Challenge",
+    "author": "Lemniks",
+    "creators": ["Lemniks"],
+    "verifier": "Lemniks",
+    "verification": "https://youtu.be/F3oemJREoO8",
+    "percentToQualify": 100,
+    "password": "None",
+    "enjoyment": "5/10",
+    "description": "Gigachad.",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

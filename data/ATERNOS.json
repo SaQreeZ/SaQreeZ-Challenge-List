@@ -10,5 +10,11 @@
     "enjoyment": "4/10",
     "description": "Kinda looks like Acheron. Fast paced wave challenge.",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/7hbM-MCsQvE?t=76",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

@@ -1,0 +1,20 @@
+{
+    "id": 102324818,
+    "name": "Pla Control",
+    "author": "Lemniks",
+    "creators": ["Lemniks"],
+    "verifier": "Lemniks",
+    "verification": "https://youtu.be/G376RshL034",
+    "percentToQualify": 80,
+    "password": "None",
+    "enjoyment": "3/10",
+    "description": "weird wonky wave consistency",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
