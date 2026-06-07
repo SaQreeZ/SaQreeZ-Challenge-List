@@ -1,0 +1,26 @@
+{
+    "id": 89475607,
+    "name": "Forget",
+    "author": "PanPingwinek",
+    "creators": ["PanPingwinek"],
+    "verifier": "PanPingwinek",
+    "verification": "https://youtu.be/Lcyex2UbRj4",
+    "percentToQualify": 42,
+    "password": "None",
+    "enjoyment": "8/10",
+    "description": "Impossible ship control",
+    "records": [
+        {
+            "user": "Kolib24",
+            "link": "https://youtu.be/bay5Yu0ECVQ?si=sbBgoUEY5bxm5zSV",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "gopsolaptop",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

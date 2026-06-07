@@ -27,6 +27,12 @@
             "link": "link",
             "percent": 100,
             "hz": 30
+        },
+        {
+            "user": "Kolib24",
+            "link": "https://youtu.be/Z15FDb7o8wI",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }

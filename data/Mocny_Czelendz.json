@@ -1,0 +1,20 @@
+{
+    "id": 139256065,
+    "name": "Mocny Czelendz",
+    "author": "Dupao",
+    "creators": ["Dupao"],
+    "verifier": "Lemniks",
+    "verification": "https://youtu.be/31d2mzmtMhA",
+    "percentToQualify": 100,
+    "password": "None",
+    "enjoyment": "5/10",
+    "description": "ahh challenge",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
