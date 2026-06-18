@@ -1,0 +1,20 @@
+{
+    "id": 88385135,
+    "name": "succ is cocc when",
+    "author": "Cinasek",
+    "creators": ["Cinasek"],
+    "verifier": "Cinasek",
+    "verification": "https://www.youtube.com/watch?v=_FYUPlNh4pY&t=195s",
+    "percentToQualify": 100,
+    "password": "None",
+    "enjoyment": "4/10",
+    "description": "weird allignment",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
