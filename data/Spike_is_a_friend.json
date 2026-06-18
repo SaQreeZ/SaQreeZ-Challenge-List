@@ -1,0 +1,20 @@
+{
+    "id": 62333903,
+    "name": "Spike is a friend",
+    "author": "Cinasek",
+    "creators": ["Cinasek"],
+    "verifier": "Cinasek",
+    "verification": "https://youtu.be/EVVlo8qW714?si=RnzsdBq1yZuuYadE&t=1577",
+    "percentToQualify": 100,
+    "password": "None",
+    "enjoyment": "4/10",
+    "description": "funni easy",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "link",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
