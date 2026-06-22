@@ -10,5 +10,11 @@
     "enjoyment": "3/10",
     "description": "Fuck the last jump. It is NOT a sequel to Tidal Wave. Fix the transition into UFO pretty please.",
     "records": [
+        {
+            "user": "Cinasek",
+            "link": "https://www.youtube.com/watch?v=EVVlo8qW714",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }

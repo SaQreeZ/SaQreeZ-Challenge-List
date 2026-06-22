@@ -10,5 +10,11 @@
     "enjoyment": "6/10",
     "description": "Wave challenge with stupid last click",
     "records": [
+        {
+            "user": "Cinasek",
+            "link": "https://www.youtube.com/watch?v=EVVlo8qW714",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }
