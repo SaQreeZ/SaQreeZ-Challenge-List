@@ -10,5 +10,11 @@
     "enjoyment": "7/10",
     "description": "Pretty fun, skillbased ship challenge",
     "records": [
+        {
+            "user": "Lemniks",
+            "link": "https://youtu.be/XymqvK1RveY",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

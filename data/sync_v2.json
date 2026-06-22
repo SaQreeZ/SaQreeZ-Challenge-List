@@ -10,5 +10,11 @@
     "enjoyment": "4/10",
     "description": "Contrary to the name, it barely syncs and it works when it wants lol",
     "records": [
+        {
+            "user": "Lemniks",
+            "link": "https://youtu.be/XymqvK1RveY",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

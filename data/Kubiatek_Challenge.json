@@ -10,5 +10,11 @@
     "enjoyment": "8/10",
     "description": "Ending carried, but fun challenge",
     "records": [
+        {
+            "user": "Lemniks",
+            "link": "https://youtu.be/XymqvK1RveY",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

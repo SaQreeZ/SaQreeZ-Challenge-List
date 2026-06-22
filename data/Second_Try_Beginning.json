@@ -10,5 +10,11 @@
     "enjoyment": "6/10",
     "description": "Old discontinued layout",
     "records": [
+        {
+            "user": "Lemniks",
+            "link": "https://youtu.be/XymqvK1RveY",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

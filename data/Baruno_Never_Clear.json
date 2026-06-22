@@ -10,5 +10,11 @@
     "enjoyment": "9/10",
     "description": "Fun Sakupen Circles inspired challenge",
     "records": [
+        {
+            "user": "Lemniks",
+            "link": "https://youtu.be/XymqvK1RveY",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
