@@ -1,0 +1,21 @@
+{
+    "id": 73567476,
+    "name": "rf mc 4",
+    "author": "Cinasek",
+    "creators": ["Cinasek"],
+    "verifier": "Cinasek",
+    "verification": "https://youtu.be/EVVlo8qW714?si=nu5WdSN_yijjKYeq&t=1591",
+    "percentToQualify": 100,
+    "password": "None",
+    "enjoyment": "4/10",
+    "description": "pyton kozla for noobz",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://www.youtube.com/watch?v=V4115ZDMrwY",
+            "percent": 100,
+            "hz": 240
+        }
+        
+    ]
+}

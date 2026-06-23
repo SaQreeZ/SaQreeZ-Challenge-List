@@ -63,6 +63,26 @@
             "link": "link",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Lemniks",
+            "link": "https://youtu.be/tIwFGoe9BLU?si=xuLu_RdUO_o2P1tZ",
+            "percent": 100,
+            "mobile": 1,
+            "hz": 120
+        },
+        {
+            "user": "Cinasek",
+            "link": "https://www.youtube.com/watch?v=EVVlo8qW714",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/V4115ZDMrwY?t=872",
+            "percent": 100,
+            "mobile": 1,
+            "hz": 120
         }
     ]
 }

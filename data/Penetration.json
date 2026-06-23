@@ -24,9 +24,15 @@
         },
         {
             "user": "gopsolaptop",
-            "link": "link",
+            "link": "https://www.youtube.com/watch?v=lVeRiP-DFMU&t=246s",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Cinasek",
+            "link": "https://www.youtube.com/watch?v=kRgLCOKmmCs",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }

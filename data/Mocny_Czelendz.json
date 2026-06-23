@@ -12,9 +12,15 @@
     "records": [
         {
             "user": "gopsolaptop",
-            "link": "link",
+            "link": "https://www.youtube.com/watch?v=lVeRiP-DFMU&t=424s",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Cinasek",
+            "link": "https://www.youtube.com/watch?v=EVVlo8qW714",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }

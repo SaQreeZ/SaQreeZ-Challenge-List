@@ -81,6 +81,19 @@
             "link": "https://youtu.be/jsp5Bh6_lTk",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Lemniks",
+            "link": "https://youtu.be/tIwFGoe9BLU?si=xuLu_RdUO_o2P1tZ",
+            "percent": 100,
+            "mobile": 1,
+            "hz": 120
+        },
+        {
+            "user": "Cinasek",
+            "link": "https://www.youtube.com/watch?v=EVVlo8qW714",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }

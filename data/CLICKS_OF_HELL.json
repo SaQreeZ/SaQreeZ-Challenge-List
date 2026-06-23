@@ -1,8 +1,8 @@
 {
     "id": 122965746,
     "name": "CLICKS OF HELL",
-    "author": "bob",
-    "creators": ["bob"],
+    "author": "bobbobGD",
+    "creators": ["bobbobGD"],
     "verifier": "Kolib24",
     "verification": "https://youtu.be/1LdEW6kDVdo?si=i00UZuCvLEzU-aOV",
     "percentToQualify": 55,
@@ -15,6 +15,12 @@
             "link": "https://youtu.be/GT6Mcn9nZuM?t=60",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Cinasek",
+            "link": "https://www.youtube.com/watch?v=kRgLCOKmmCs",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }

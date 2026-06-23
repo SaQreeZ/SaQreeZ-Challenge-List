@@ -10,5 +10,11 @@
     "enjoyment": "6/10",
     "description": "NONG: Prolly Mirror.",
     "records": [
+        {
+            "user": "Cinasek",
+            "link": "https://www.youtube.com/watch?v=EVVlo8qW714",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }

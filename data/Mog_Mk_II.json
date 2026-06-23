@@ -1,0 +1,20 @@
+{
+    "id": 139257540,
+    "name": "Mog Mk II",
+    "author": "Kolib24",
+    "creators": ["Kolib24"],
+    "verifier": "Kolib24",
+    "verification": "https://youtu.be/pfrQqJGNydw",
+    "percentToQualify": 66,
+    "password": "None",
+    "enjoyment": "6/10",
+    "description": "Predrop almost as hard as regular acmk2",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/V4115ZDMrwY?t=785",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

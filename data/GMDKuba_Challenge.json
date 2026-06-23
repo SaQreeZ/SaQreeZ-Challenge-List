@@ -10,5 +10,11 @@
     "enjoyment": "8/10",
     "description": "Old challenge, thats pretty much it",
     "records": [
+        {
+            "user": "Lemniks",
+            "link": "https://youtu.be/XymqvK1RveY",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

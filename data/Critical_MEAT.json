@@ -1,0 +1,20 @@
+{
+    "id": 139748500,
+    "name": "Critical MEAT",
+    "author": "gopsiurmobajl",
+    "creators": ["gopsiurmobajl"],
+    "verifier": "gopsolaptop",
+    "verification": "https://www.youtube.com/watch?v=V4115ZDMrwY",
+    "percentToQualify": 100,
+    "password": "None",
+    "enjoyment": "6/10",
+    "description": "One of Gopso's best pieces of gameplay.",
+    "records": [
+        {
+            "user": "Cinasek",
+            "link": "https://youtu.be/kRgLCOKmmCs?t=163",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
