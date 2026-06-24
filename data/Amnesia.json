@@ -23,12 +23,6 @@
             "hz": 120
         },
         {
-            "user": "SaQreeZ",
-            "link": "link",
-            "percent": 41,
-            "hz": 480
-        },
-        {
             "user": "gopsolaptop",
             "link": "https://www.youtube.com/watch?v=snLCg1x6vWk",
             "percent": 100,
@@ -45,6 +39,12 @@
             "link": "https://www.youtube.com/watch?v=kRgLCOKmmCs",
             "percent": 100,
             "hz": 120
+        },
+        {
+            "user": "SaQreeZ",
+            "link": "https://youtu.be/D6ZZl_YJEUo",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }
