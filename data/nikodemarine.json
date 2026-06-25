@@ -10,5 +10,11 @@
     "enjoyment": "10/10",
     "description": "Gufno akuamarin rimejk (oryginalne, nigdzie indziej na liscie tego nie ma!)",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://www.youtube.com/watch?v=06DSy-sBuRc",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
