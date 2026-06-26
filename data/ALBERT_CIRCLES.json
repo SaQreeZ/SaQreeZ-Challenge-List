@@ -10,5 +10,11 @@
     "enjoyment": "6/10",
     "description": "Challenge inspired by Pennutoh's Zodiac part.",
     "records": [
+        {
+            "user": "szymek",
+            "link": "https://www.youtube.com/watch?v=P5l_Yi8D5yE",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
