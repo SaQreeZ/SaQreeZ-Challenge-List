@@ -10,5 +10,11 @@
     "enjoyment": "5/10",
     "description": "Easier than it looks",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/06DSy-sBuRc?t=39",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

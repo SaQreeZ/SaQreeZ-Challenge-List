@@ -10,5 +10,11 @@
     "enjoyment": "5/10",
     "description": "I N J U R Y inspired 4 second long challenge.",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/06DSy-sBuRc?t=71",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
