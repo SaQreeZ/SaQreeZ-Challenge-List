@@ -10,5 +10,11 @@
     "enjoyment": "7/10",
     "description": "Pink SLIGHTLY offsync NC challenge ",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/puzWTICXM9A?t=18",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

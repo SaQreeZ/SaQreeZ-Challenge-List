@@ -10,5 +10,11 @@
     "enjoyment": "10/10",
     "description": "peak.",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/puzWTICXM9A?t=412",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
