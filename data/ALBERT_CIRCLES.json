@@ -4,11 +4,17 @@
     "author": "Gopso",
     "creators": ["Gopso"],
     "verifier": "gopsolaptop",
-    "verification": "https://www.youtube.com/watch?v=V4115ZDMrwY",
+    "verification": "https://youtu.be/V4115ZDMrwY?t=331",
     "percentToQualify": 100,
     "password": "None",
     "enjoyment": "6/10",
     "description": "Challenge inspired by Pennutoh's Zodiac part.",
     "records": [
+        {
+            "user": "szymek",
+            "link": "https://www.youtube.com/watch?v=P5l_Yi8D5yE",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }

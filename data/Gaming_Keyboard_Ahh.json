@@ -33,6 +33,12 @@
             "link": "link",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/06DSy-sBuRc?t=83",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }

@@ -53,6 +53,12 @@
             "percent": 100,
             "mobile": 1,
             "hz": 120
+        },
+        {
+            "user": "szymek",
+            "link": "https://www.youtube.com/watch?v=aRbyv6Q5Iws",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
