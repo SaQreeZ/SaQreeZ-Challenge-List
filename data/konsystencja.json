@@ -21,6 +21,12 @@
             "link": "link",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Mixer",
+            "link": "https://youtu.be/ZoS20kviUcU",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }

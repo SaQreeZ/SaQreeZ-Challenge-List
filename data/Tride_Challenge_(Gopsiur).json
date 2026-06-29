@@ -8,7 +8,13 @@
     "percentToQualify": 100,
     "password": "None",
     "enjoyment": "6/10",
-    "description": "He wants his Green Milk.",
+    "description": "NCS song peam challenge",
     "records": [
+        {
+            "user": "Mixer",
+            "link": "https://youtu.be/ZoS20kviUcU",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
