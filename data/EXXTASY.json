@@ -10,5 +10,11 @@
     "enjoyment": "4/10",
     "description": "Modern style wave challenge",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/DG2pgIg163c?t=133",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

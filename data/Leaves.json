@@ -88,6 +88,12 @@
             "link": "https://www.youtube.com/watch?v=EVVlo8qW714",
             "percent": 100,
             "hz": 120
+        },
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/DG2pgIg163c?t=170",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }

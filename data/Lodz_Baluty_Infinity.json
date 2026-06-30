@@ -10,5 +10,11 @@
     "enjoyment": "4/10",
     "description": "Dark wave challenge with gameplay 'similair' to Collapse and Starlit Stroll.",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://www.youtube.com/watch?v=DG2pgIg163c",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

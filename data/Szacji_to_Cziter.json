@@ -10,5 +10,11 @@
     "enjoyment": "8/10",
     "description": "Dark wave challenge with weird lineups",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/DG2pgIg163c?t=63",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

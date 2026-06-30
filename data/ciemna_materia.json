@@ -10,5 +10,11 @@
     "enjoyment": "2/10",
     "description": "Fun challenge ruined by ahh transitions",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/DG2pgIg163c?t=113",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
