@@ -124,10 +124,10 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Level length MUST be 3 to 69 seconds long.
+                        Level length MUST be at least 3 seconds long.
                     </p>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 600fps. CBF is ALLOWED.).
+                        Achieved the record without using hacks (however, FPS bypass and CBF are ALLOWED.).
                     </p>
                     <p>
                         Achieved the record on the level that is listed on the site - please check the level ID before you submit a record.
