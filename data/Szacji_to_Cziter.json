@@ -1,0 +1,20 @@
+{
+    "id": 95559363,
+    "name": "Szacji to Cziter",
+    "author": "PanPingwinek",
+    "creators": ["PanPingwinek"],
+    "verifier": "Cinasek",
+    "verification": "https://youtu.be/P_uJEeN-uLo?si=RmXHrL7owSvit-nZ&t=208",
+    "percentToQualify": 100,
+    "password": "None",
+    "enjoyment": "8/10",
+    "description": "Dark wave challenge with weird lineups",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/DG2pgIg163c?t=63",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

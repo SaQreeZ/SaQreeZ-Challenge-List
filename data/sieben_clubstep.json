@@ -64,6 +64,12 @@
             "link": "https://www.youtube.com/watch?v=YCdn5wPFEJM",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Mixer",
+            "link": "https://youtu.be/ZoS20kviUcU",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }

@@ -10,5 +10,11 @@
     "enjoyment": "5/10",
     "description": "This hurts your hand more than wasureta. Kinky spam shit. Good luck.",
     "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://www.youtube.com/watch?v=qPtb6rsbPiM",
+            "percent": 85,
+            "hz": 240
+        }
     ]
 }
