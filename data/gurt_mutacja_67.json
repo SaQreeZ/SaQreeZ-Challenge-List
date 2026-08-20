@@ -1,0 +1,26 @@
+{
+    "id": 145107092,
+    "name": "gurt mutacja 67",
+    "author": "denerosz",
+    "creators": ["denerosz"],
+    "verifier": "MaybeGurt",
+    "verification": "https://youtu.be/gphEkfNi7qs",
+    "percentToQualify": 80,
+    "password": "None",
+    "enjoyment": "chuj/10",
+    "description": "a bunch of 120fp inputs, really bad.",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/xWE0cBg6eH4?t=280",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Kolib24",
+            "link": "link",
+            "percent": 93,
+            "hz": 240
+        }
+    ]
+}

@@ -32,12 +32,18 @@
             "user": "Kolib24",
             "link": "https://youtu.be/Z15FDb7o8wI",
             "percent": 100,
-            "hz": 240
+            "hz": 30
         },
         {
             "user": "dzuloo",
             "link": "https://medal.tv/games/geometry-dash/clips/n0T8hiRcs5ZCHHd1q?invite=cr-MSw2azMsNDE2OTY3NjQ4",
             "percent": 100,
+            "hz": 30
+        },
+        {
+            "user": "gopsolaptop",
+            "link": "https://youtu.be/0Tmw8zb1lYA?t=108",
+            "percent": 57,
             "hz": 30
         }
     ]

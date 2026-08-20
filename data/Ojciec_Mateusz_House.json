@@ -1,0 +1,20 @@
+{
+    "id": 100222028,
+    "name": "Ojciec Mateusz House",
+    "author": "Pepe2137",
+    "creators": ["Pepe2137"],
+    "verifier": "Lemniks",
+    "verification": "https://www.youtube.com/watch?v=uKtEhasAIDI",
+    "percentToQualify": 100,
+    "password": "None",
+    "enjoyment": "10/10",
+    "description": "Intense level with an intense song and ORB SPAM.",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "lihttps://youtu.be/xWE0cBg6eH4?t=92",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
